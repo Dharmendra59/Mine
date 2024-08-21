@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ludo</title>
+    <link  href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"  rel="stylesheet"/>
+    <link rel="stylesheet" href="Ludo.css">
+</head>
+<body>
+    <div class="ludo">
+        <div class="upper">
+            <div class="upperright" style="background-color: red;">
+                <div class="boxinner">
+                    <div class="ball" id="redball"></div>
+                    <div class="ball" id="redball"></div>
+                    <div class="ball" id="redball"></div>
+                    <div class="ball" id="redball"></div>
+                </div>
+            </div>
+            <div class="uppermiddle">
+                <div class="col">
+                    <div class="block"></div>
+                    <div class="block" ></div>
+                    <div class="block"><i class="ri-star-line"></i></div>
+                    <div class="block"></div>
+                    <div class="block"></div>
+                    <div class="block"></div>
+                </div>
+                <div class="col">
+                    <div class="block"><i style="rotate: 200deg;" class="ri-cursor-line"></i></div>
+                    <div class="block" id="greenmiddlecol"></div>
+                    <div class="block" id="greenmiddlecol"></div>
+                    <div class="block" id="greenmiddlecol"></div>
+                    <div class="block" id="greenmiddlecol"></div>
+                    <div class="block" id="greenmiddlecol"></div>
+                </div>
+                <div class="col">
+                    <div class="block"></div>
+                    <div class="block"id="greenmiddlecol"><i style="color: white;" class="ri-star-line"></i></div>
+                    <div class="block"></div>
+                    <div class="block"></div>
+                    <div class="block"></div>
+                    <div class="block"></div>
+                </div>
+            </div>
+            <div class="upperright" style="background-color: green;">
+                <div class="boxinner">
+                    <div class="ball" id="greenball"></div>
+                    <div class="ball" id="greenball"></div>
+                    <div class="ball" id="greenball"></div>
+                    <div class="ball" id="greenball"></div>
+                </div>
+            </div>
+        </div>
+        <div class="middle">
+            <div class="middleright">
+                <div class="middlerow">
+                    <div class="middleblock"></div>
+                    <div class="middleblock" id="redmiddlecol"><i style="color: white;" class="ri-star-line"></i></div>
+                    <div class="middleblock"></div>
+                    <div class="middleblock"></div>
+                    <div class="middleblock"></div>
+                    <div class="middleblock"></div>
+                </div>
+                <div class="middlerow">
+                    <div class="middleblock"><i style="rotate: 110deg;" class="ri-cursor-line"></i></div>
+                    <div class="middleblock" id="redmiddlecol"></div>
+                    <div class="middleblock" id="redmiddlecol"></div>
+                    <div class="middleblock" id="redmiddlecol"></div>
+                    <div class="middleblock" id="redmiddlecol"></div>
+                    <div class="middleblock" id="redmiddlecol"></div>
+                </div>
+                <div class="middlerow">
+                    <div class="middleblock"></div>
+                    <div class="middleblock"></div>
+                    <div class="middleblock"><i class="ri-star-line"></i></div>
+                    <div class="middleblock"></div>
+                    <div class="middleblock"></div>
+                    <div class="middleblock"></div>
+                </div>
+            </div>
+            <div class="center">
+                <div class="triangle" id="redtriangle"></div>
+                <div class="triangle" id="greentriangle"></div>
+                <div class="triangle" id="bluetriangle"></div>
+                <div class="triangle" id="yellowtriangle"></div>
+                <div class="victory"></div>
+            </div>
+            <div class="middleright">
+                <div class="middlerow">
+                    <div class="middleblock"></div>
+                    <div class="middleblock"></div>
+                    <div class="middleblock"></div>
+                    <div class="middleblock"><i class="ri-star-line"></i></div>
+                    <div class="middleblock"></div>
+                    <div class="middleblock"></div>
+                </div>
+                <div class="middlerow">
+                    <div class="middleblock" id="yellowmiddlecol"></div>
+                    <div class="middleblock" id="yellowmiddlecol"></div>
+                    <div class="middleblock" id="yellowmiddlecol"></div>
+                    <div class="middleblock" id="yellowmiddlecol"></div>
+                    <div class="middleblock" id="yellowmiddlecol"></div>
+                    <div class="middleblock" ><i style="rotate: -70deg;" class="ri-cursor-line"></i></div>
+                </div>
+                <div class="middlerow">
+                    <div class="middleblock"></div>
+                    <div class="middleblock"></div>
+                    <div class="middleblock"></div>
+                    <div class="middleblock"></div>
+                    <div class="middleblock" id="yellowmiddlecol"><i style="color: white;" class="ri-star-line"></i></div>
+                    <div class="middleblock"></div>
+                </div>
+            </div>
+        </div>
+        <div class="upper">
+            <div class="upperright" style="background-color: blue;">
+                <div class="boxinner">
+                    <div class="ball" id="blueball"></div>
+                    <div class="ball" id="blueball"></div>
+                    <div class="ball" id="blueball"></div>
+                    <div class="ball" id="blueball"></div>
+                </div>
+            </div>
+            <div class="uppermiddle" >
+                <div class="col">
+                    <div class="block"></div>
+                    <div class="block"></div>
+                    <div class="block"></div>
+                    <div class="block"></div>
+                    <div class="block" id="bluemiddlecol"><i style="color: white;" class="ri-star-line"></i></div>
+                    <div class="block"></div>
+                </div>
+                <div class="col">
+                    <div class="block" id="bluemiddlecol"></div>
+                    <div class="block" id="bluemiddlecol"></div>
+                    <div class="block" id="bluemiddlecol"></div>
+                    <div class="block" id="bluemiddlecol"></div>
+                    <div class="block" id="bluemiddlecol"></div>
+                    <div class="block" ><i style="rotate: 15deg;" class="ri-cursor-line"></i></div>
+                </div>
+                <div class="col">
+                    <div class="block"></div>
+                    <div class="block"></div>
+                    <div class="block"></div>
+                    <div class="block"><i class="ri-star-line"></i></div>
+                    <div class="block"></div>
+                    <div class="block"></div>
+                </div>
+            </div>
+            <div class="upperright" style="background-color: yellow;">
+                <div class="boxinner">
+                    <div class="ball" id="yellowball"></div>
+                    <div class="ball" id="yellowball"></div>
+                    <div class="ball" id="yellowball"></div>
+                    <div class="ball" id="yellowball"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

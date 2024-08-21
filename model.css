@@ -1,0 +1,29 @@
+.top {
+    min-height: 200px;
+    background-image: linear-gradient(gold, cyan);
+}
+
+.main {
+    min-height: 500px;
+    background-image: url('https://wallpapercave.com/wp/wp2665221.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.dtform {
+    min-height: 400px;
+    box-shadow: 5px 5px 10px 10px green inset;
+    border-radius: 90px;
+}
+
+#para2 {
+    color: greenyellow;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 700px;
+}
+
+.footer {
+    min-height: 200px;
+    background-color: gray;
+}

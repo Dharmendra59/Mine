@@ -1,0 +1,12 @@
+@keyframes dt 0% {
+    0% {
+        transform: translateX(100%)
+    }
+    100% {
+        transform: translateX(100%)
+    }
+}
+
+#inner {
+    animation: 1s ease-out 1dt;
+}

@@ -1,0 +1,3769 @@
+<body class="sticky-menu-active" ondragstart="return false;" onselectstart="return false;" oncontextmenu="return false;" onload="clearData();" onblur="clearData();" style="overflow: visible; cursor: default; padding-top: 156px;">
+
+    <!-- <div id="preloader">
+      <div id="status">&nbsp;</div>
+    </div> -->
+    <!-- social icons -->
+    <div class="float-sm">
+        <div class="fl-fl float-fb">
+            <a href="https://www.facebook.com/OfficialUPMetro/" target="_blank"><i class="fa fa-facebook"></i>
+       Like us!</a>
+        </div>
+        <div class="fl-fl float-tw">
+            <a href="https://twitter.com/Officialupmetro" target="_blank"> <i class="fa fa-twitter"></i> Follow us!</a>
+        </div>
+
+    </div>
+
+    <div class="modal fade" id="recharge" tabindex="-1" role="dialog" aria-labelledby="defaultModalLabel" aria-hidden="true" style="display: none;">
+
+        <div class="modal-dialog home-dialog" style="max-width: 90%">
+
+            <div class="modal-content">
+
+                <div class="modal-body" align="center">
+
+                    <div class="lds-css ng-scope">
+
+                        <div style="width:100%;height:100%" class="lds-ellipsis">
+
+                            <div>
+
+                                <div></div>
+
+                            </div>
+
+                            <div>
+
+                                <div></div>
+
+                            </div>
+
+                            <div>
+
+                                <div></div>
+
+                            </div>
+
+                            <div>
+
+                                <div></div>
+
+                            </div>
+
+                            <div>
+
+                                <div></div>
+
+                            </div>
+
+                        </div>
+
+                        <style type="text/css">
+                            @keyframes lds-ellipsis3 {
+                                0%,
+                                25% {
+                                    left: 32px;
+                                    -webkit-transform: scale(0);
+                                    transform: scale(0);
+                                }
+                                50% {
+                                    left: 32px;
+                                    -webkit-transform: scale(1);
+                                    transform: scale(1);
+                                }
+                                75% {
+                                    left: 100px;
+                                }
+                                100% {
+                                    left: 168px;
+                                    -webkit-transform: scale(1);
+                                    transform: scale(1);
+                                }
+                            }
+                            
+                            @-webkit-keyframes lds-ellipsis3 {
+                                0%,
+                                25% {
+                                    left: 32px;
+                                    -webkit-transform: scale(0);
+                                    transform: scale(0);
+                                }
+                                50% {
+                                    left: 32px;
+                                    -webkit-transform: scale(1);
+                                    transform: scale(1);
+                                }
+                                75% {
+                                    left: 100px;
+                                }
+                                100% {
+                                    left: 168px;
+                                    -webkit-transform: scale(1);
+                                    transform: scale(1);
+                                }
+                            }
+                            
+                            @keyframes lds-ellipsis2 {
+                                0% {
+                                    -webkit-transform: scale(1);
+                                    transform: scale(1);
+                                }
+                                25%,
+                                100% {
+                                    -webkit-transform: scale(0);
+                                    transform: scale(0);
+                                }
+                            }
+                            
+                            @-webkit-keyframes lds-ellipsis2 {
+                                0% {
+                                    -webkit-transform: scale(1);
+                                    transform: scale(1);
+                                }
+                                25%,
+                                100% {
+                                    -webkit-transform: scale(0);
+                                    transform: scale(0);
+                                }
+                            }
+                            
+                            @keyframes lds-ellipsis {
+                                0% {
+                                    left: 32px;
+                                    -webkit-transform: scale(0);
+                                    transform: scale(0);
+                                }
+                                25% {
+                                    left: 32px;
+                                    -webkit-transform: scale(1);
+                                    transform: scale(1);
+                                }
+                                50% {
+                                    left: 100px;
+                                }
+                                75% {
+                                    left: 168px;
+                                    -webkit-transform: scale(1);
+                                    transform: scale(1);
+                                }
+                                100% {
+                                    left: 168px;
+                                    -webkit-transform: scale(0);
+                                    transform: scale(0);
+                                }
+                            }
+                            
+                            @-webkit-keyframes lds-ellipsis {
+                                0% {
+                                    left: 32px;
+                                    -webkit-transform: scale(0);
+                                    transform: scale(0);
+                                }
+                                25% {
+                                    left: 32px;
+                                    -webkit-transform: scale(1);
+                                    transform: scale(1);
+                                }
+                                50% {
+                                    left: 100px;
+                                }
+                                75% {
+                                    left: 168px;
+                                    -webkit-transform: scale(1);
+                                    transform: scale(1);
+                                }
+                                100% {
+                                    left: 168px;
+                                    -webkit-transform: scale(0);
+                                    transform: scale(0);
+                                }
+                            }
+                            
+                            .lds-ellipsis {
+                                position: relative;
+                            }
+                            
+                            .lds-ellipsis>div {
+                                position: absolute;
+                                -webkit-transform: translate(-50%, -50%);
+                                transform: translate(-50%, -50%);
+                                width: 32px;
+                                height: 32px;
+                            }
+                            
+                            .lds-ellipsis div>div {
+                                width: 32px;
+                                height: 32px;
+                                border-radius: 50%;
+                                background: #f00;
+                                position: absolute;
+                                top: 100px;
+                                left: 32px;
+                                -webkit-animation: lds-ellipsis 1.1s cubic-bezier(0, 0.5, 0.5, 1) infinite forwards;
+                                animation: lds-ellipsis 1.1s cubic-bezier(0, 0.5, 0.5, 1) infinite forwards;
+                            }
+                            
+                            .lds-ellipsis div:nth-child(1) div {
+                                -webkit-animation: lds-ellipsis2 1.1s cubic-bezier(0, 0.5, 0.5, 1) infinite forwards;
+                                animation: lds-ellipsis2 1.1s cubic-bezier(0, 0.5, 0.5, 1) infinite forwards;
+                                background: #00b3a1;
+                            }
+                            
+                            .lds-ellipsis div:nth-child(2) div {
+                                -webkit-animation-delay: -0.55s;
+                                animation-delay: -0.55s;
+                                background: #00b3a1;
+                            }
+                            
+                            .lds-ellipsis div:nth-child(3) div {
+                                -webkit-animation-delay: -0.275s;
+                                animation-delay: -0.275s;
+                                background: #00b3a1;
+                            }
+                            
+                            .lds-ellipsis div:nth-child(4) div {
+                                -webkit-animation-delay: 0s;
+                                animation-delay: 0s;
+                                background: #00b3a1;
+                            }
+                            
+                            .lds-ellipsis div:nth-child(5) div {
+                                -webkit-animation: lds-ellipsis3 1.1s cubic-bezier(0, 0.5, 0.5, 1) infinite forwards;
+                                animation: lds-ellipsis3 1.1s cubic-bezier(0, 0.5, 0.5, 1) infinite forwards;
+                                background: #00b3a1;
+                            }
+                            
+                            .lds-ellipsis {
+                                width: 72px !important;
+                                height: 72px !important;
+                                -webkit-transform: translate(-36px, -36px) scale(0.36) translate(36px, 36px);
+                                transform: translate(-36px, -36px) scale(0.36) translate(36px, 36px);
+                            }
+                        </style>
+
+                    </div>
+
+                    <p style="text-align:center; font-weight:normal;">Please wait, redirecting..</p>
+
+
+
+
+
+
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="modal fade" id="recharge1" tabindex="-1" role="dialog" aria-labelledby="defaultModalLabel" aria-hidden="true" style="display: none;">
+
+        <div class="modal-dialog home-dialog" style="max-width: 90%">
+
+            <div class="modal-content">
+
+                <div class="modal-body" align="center">
+
+                    <div class="lds-css ng-scope">
+
+                        <div style="width:100%;height:100%" class="lds-ellipsis">
+
+                            <div>
+
+                                <div></div>
+
+                            </div>
+
+                            <div>
+
+                                <div></div>
+
+                            </div>
+
+                            <div>
+
+                                <div></div>
+
+                            </div>
+
+                            <div>
+
+                                <div></div>
+
+                            </div>
+
+                            <div>
+
+                                <div></div>
+
+                            </div>
+
+                        </div>
+
+                        <style type="text/css">
+                            @keyframes lds-ellipsis3 {
+                                0%,
+                                25% {
+                                    left: 32px;
+                                    -webkit-transform: scale(0);
+                                    transform: scale(0);
+                                }
+                                50% {
+                                    left: 32px;
+                                    -webkit-transform: scale(1);
+                                    transform: scale(1);
+                                }
+                                75% {
+                                    left: 100px;
+                                }
+                                100% {
+                                    left: 168px;
+                                    -webkit-transform: scale(1);
+                                    transform: scale(1);
+                                }
+                            }
+                            
+                            @-webkit-keyframes lds-ellipsis3 {
+                                0%,
+                                25% {
+                                    left: 32px;
+                                    -webkit-transform: scale(0);
+                                    transform: scale(0);
+                                }
+                                50% {
+                                    left: 32px;
+                                    -webkit-transform: scale(1);
+                                    transform: scale(1);
+                                }
+                                75% {
+                                    left: 100px;
+                                }
+                                100% {
+                                    left: 168px;
+                                    -webkit-transform: scale(1);
+                                    transform: scale(1);
+                                }
+                            }
+                            
+                            @keyframes lds-ellipsis2 {
+                                0% {
+                                    -webkit-transform: scale(1);
+                                    transform: scale(1);
+                                }
+                                25%,
+                                100% {
+                                    -webkit-transform: scale(0);
+                                    transform: scale(0);
+                                }
+                            }
+                            
+                            @-webkit-keyframes lds-ellipsis2 {
+                                0% {
+                                    -webkit-transform: scale(1);
+                                    transform: scale(1);
+                                }
+                                25%,
+                                100% {
+                                    -webkit-transform: scale(0);
+                                    transform: scale(0);
+                                }
+                            }
+                            
+                            @keyframes lds-ellipsis {
+                                0% {
+                                    left: 32px;
+                                    -webkit-transform: scale(0);
+                                    transform: scale(0);
+                                }
+                                25% {
+                                    left: 32px;
+                                    -webkit-transform: scale(1);
+                                    transform: scale(1);
+                                }
+                                50% {
+                                    left: 100px;
+                                }
+                                75% {
+                                    left: 168px;
+                                    -webkit-transform: scale(1);
+                                    transform: scale(1);
+                                }
+                                100% {
+                                    left: 168px;
+                                    -webkit-transform: scale(0);
+                                    transform: scale(0);
+                                }
+                            }
+                            
+                            @-webkit-keyframes lds-ellipsis {
+                                0% {
+                                    left: 32px;
+                                    -webkit-transform: scale(0);
+                                    transform: scale(0);
+                                }
+                                25% {
+                                    left: 32px;
+                                    -webkit-transform: scale(1);
+                                    transform: scale(1);
+                                }
+                                50% {
+                                    left: 100px;
+                                }
+                                75% {
+                                    left: 168px;
+                                    -webkit-transform: scale(1);
+                                    transform: scale(1);
+                                }
+                                100% {
+                                    left: 168px;
+                                    -webkit-transform: scale(0);
+                                    transform: scale(0);
+                                }
+                            }
+                            
+                            .lds-ellipsis {
+                                position: relative;
+                            }
+                            
+                            .lds-ellipsis>div {
+                                position: absolute;
+                                -webkit-transform: translate(-50%, -50%);
+                                transform: translate(-50%, -50%);
+                                width: 32px;
+                                height: 32px;
+                            }
+                            
+                            .lds-ellipsis div>div {
+                                width: 32px;
+                                height: 32px;
+                                border-radius: 50%;
+                                background: #f00;
+                                position: absolute;
+                                top: 100px;
+                                left: 32px;
+                                -webkit-animation: lds-ellipsis 1.1s cubic-bezier(0, 0.5, 0.5, 1) infinite forwards;
+                                animation: lds-ellipsis 1.1s cubic-bezier(0, 0.5, 0.5, 1) infinite forwards;
+                            }
+                            
+                            .lds-ellipsis div:nth-child(1) div {
+                                -webkit-animation: lds-ellipsis2 1.1s cubic-bezier(0, 0.5, 0.5, 1) infinite forwards;
+                                animation: lds-ellipsis2 1.1s cubic-bezier(0, 0.5, 0.5, 1) infinite forwards;
+                                background: #00b3a1;
+                            }
+                            
+                            .lds-ellipsis div:nth-child(2) div {
+                                -webkit-animation-delay: -0.55s;
+                                animation-delay: -0.55s;
+                                background: #00b3a1;
+                            }
+                            
+                            .lds-ellipsis div:nth-child(3) div {
+                                -webkit-animation-delay: -0.275s;
+                                animation-delay: -0.275s;
+                                background: #00b3a1;
+                            }
+                            
+                            .lds-ellipsis div:nth-child(4) div {
+                                -webkit-animation-delay: 0s;
+                                animation-delay: 0s;
+                                background: #00b3a1;
+                            }
+                            
+                            .lds-ellipsis div:nth-child(5) div {
+                                -webkit-animation: lds-ellipsis3 1.1s cubic-bezier(0, 0.5, 0.5, 1) infinite forwards;
+                                animation: lds-ellipsis3 1.1s cubic-bezier(0, 0.5, 0.5, 1) infinite forwards;
+                                background: #00b3a1;
+                            }
+                            
+                            .lds-ellipsis {
+                                width: 72px !important;
+                                height: 72px !important;
+                                -webkit-transform: translate(-36px, -36px) scale(0.36) translate(36px, 36px);
+                                transform: translate(-36px, -36px) scale(0.36) translate(36px, 36px);
+                            }
+                        </style>
+
+                    </div>
+
+                    <p style="text-align:center; font-weight:normal;">Please wait, redirecting..</p>
+
+
+
+
+
+
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <script type="text/javascript">
+        setTimeout(function() {
+
+            $(document).ready(function() {
+
+                $("#recruit").modal('hide');
+
+                $("#swachBharat").modal('show');
+
+            });
+
+        }, 20000);
+    </script>
+
+
+
+
+
+    <!-- temp modal for new recruitment -->
+    <div id="recruitment-coming-soon" class="modal fade">
+
+        <div class="modal-dialog" style="padding:0; top: 15%">
+
+            <div class="modal-content">
+
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="position:absolute; right:10px; top:5px; z-index:10">×</button>
+
+
+
+                <div class="modal-body" style="text-align:center; padding-top: 20px">
+
+                    <h2>LMRC Recruitment 2019</h2>
+
+                    <h3>Portal for online application will be live w.e.f. 22.11.2019 at 10.00 hrs.</h3>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <div id="coming-soon" class="modal fade">
+
+        <div class="modal-dialog" style="padding:0; top: 15%">
+
+            <div class="modal-content">
+
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="position:absolute; right:10px; top:5px; z-index:10">×</button>
+
+
+
+                <div class="modal-body" style="text-align:center; padding-top: 20px">
+
+                    <h2>Currently Under Construction</h2>
+
+                    <h3>This feature will be available soon.</h3>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="header-coming-soon" class="modal fade">
+
+        <div class="modal-dialog" style="padding:0; top: 15%">
+
+            <div class="modal-content">
+
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="position:absolute; right:10px; top:5px; z-index:10">×</button>
+
+                <div class="modal-body" style="text-align:center; padding-top: 20px">
+
+                    <h2>Coming Soon</h2>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="body" style="min-height: 89px;">
+
+        <header id="header">
+
+            <div class="mobile_top_nav">
+
+
+                <ul>
+
+                    <li><a href="javascript:;" tabindex="-1" id="skip1" style="color:#000; text-decoration:underline">Skip to Content</a></li>
+
+                    <li><a href="javascript:;" tabindex="-1" id="a">A</a>
+
+                        <div tabindex="-1" style="position:absolute; background:#ccc; display:none; margin-top:5px; padding:5px; z-index:9999999" id="aa">
+
+                            <a tabindex="-1" href="javascript:void(0);" id="decfont" style="background:#666; padding:2px 10px; float:left; margin-right:3px">A-</a>
+
+                            <a tabindex="-1" href="javascript:void(0);" id="resetMe" style="background:#666; padding:2px 10px; float:left;  margin-right:3px">A</a>
+
+                            <a tabindex="-1" href="javascript:void(0);" id="incfont" style="background:#666; padding:2px 10px; float:left">A+</a>
+
+                            <a tabindex="-1" href="javascript:void(0);" id="changecolor" class="invert" style="background:#fff; padding:1px 10px; color:#333; border:solid 1px #333; float:left;  margin-left:3px">A</a>
+
+                        </div>
+
+                    </li>
+
+                    <li> <a tabindex="-1" href="https://www.lmrcl.com/sitemap"><i class="fa fa-sitemap"></i></a> </li>
+
+                    <li> <a tabindex="-1" href="#" data-toggle="modal" data-target="#coming-soon">हिन्दी </a> </li>
+
+                    <li> <a tabindex="-1" href="" data-toggle="modal" data-target="#coming-soon" style=" color:#555; padding:1px; font-size:22px  "><i class="fa   fa-search"></i></a> </li>
+
+                </ul>
+
+            </div>
+
+            <div class="container main-header">
+
+                <a id="lmrc-logo" href="https://www.lmrcl.com/" tabindex="1">
+                    <img alt="LMRCL" width="600" class="upmrc_logo" src="https://www.lmrcl.com/front-end/img/UPMRCL.png" style="float:left"></a>
+                <div class="helpline">
+                    <div style="font-size:11px; text-align:center" title="Lucknow Metro Helpline no. 0522-2288869 can be reached from 9:30 AM to 6:00 PM, Monday to Saturday.">
+                        Lucknow Metro Helpline
+                        <a tabindex="-1" href="tel:+915222288869" style="color: #555"><strong>0522-2288869,</strong></a> 24x7 all days </div>
+                    <div style="font-size:11px; margin-top: -5px; text-align:center" title="Kanpur Metro Helpline no. 0512-2246200 can be reached from 9:30 AM to 6:00 PM, Monday to Saturday.">
+                        Kanpur Metro Helpline
+                        <a tabindex="-1" href="tel:+915122246200" style="color: #555"><strong>0512-2246200,</strong></a> 24x7 all days </div>
+                </div>
+
+                <!--<div class="logo">
+  
+                          <a href="index.php">
+  
+                              
+  
+                              <div style="float:left; margin-left:10px"> 
+  
+                               
+  
+                                
+  
+                                   </div>
+  
+                          </a>	
+  
+                       </div>-->
+
+                <!--<div class="search">
+  
+                          <form id="searchForm" action="page-search-results.html" method="get">
+  
+                              <div class="input-group">
+  
+                                  <input type="text" class="form-control search" name="q" id="q" placeholder="Search..." required>
+  
+                                  <span class="input-group-btn">
+  
+                                      <button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
+  
+                                  </span>
+  
+                              </div>
+  
+                          </form>
+  
+                      </div>-->
+
+                <nav>
+
+                    <ul class="nav nav-pills nav-top">
+
+                        <li>
+
+                            <a href="javascript:;" tabindex="2" id="skip" style="color:#000; text-decoration:underline">Skip to Content</a> </li>
+
+                        <li style="padding-top:3px">
+
+
+
+                            <a href="javascript:void(0);" tabindex="3" id="decfonts" style="background:#666; padding:2px 10px; float:left; margin-right:3px">A-</a>
+
+                            <a href="javascript:void(0);" tabindex="4" id="resetMes" style="background:#666; padding:2px 10px; float:left;  margin-right:3px">A</a>
+
+                            <a href="javascript:void(0);" tabindex="5" id="incfonts" style="background:#666; padding:2px 10px; float:left">A+</a> </li>
+
+                        <li style="padding-top:3px">
+
+                            <a href="javascript:void(0);" tabindex="6" id="changecolors" class="invert" style="background:#fff; padding:1px 10px; color:#333; border:solid 1px #333">A</a> </li>
+
+                        <li style="padding-top:3px">
+
+                            <a href="https://www.lmrcl.com/sitemap" tabindex="7" style="background:#666; padding:2px 5px 2px 12px; color:#fff; font-size:16px; text-align:center"><i class="fa fa-sitemap"></i></a> </li>
+
+                        <li style="padding-top:3px">
+
+                            <a href="" data-toggle="modal" data-target="#coming-soon" tabindex="8" style="background:#666; padding:2px 10px; color:#fff;  ">हिन्दी </a> </li>
+
+                        <li style="padding-top:3px">
+
+                            <a href="" data-toggle="modal" data-target="#coming-soon" tabindex="9" style=" color:#555; padding:1px; font-size:24px  "><i class="fa   fa-search"></i></a> </li>
+
+                    </ul>
+
+                </nav>
+                <div class="header-right">
+                    <img alt="logo" class="g20-logo" src="https://www.lmrcl.com/front-end/img/g20-logo.png">
+                    <div class="help" title="Kanpur Metro Helpline no. 0512-2246200 can be reached 24x7."><strong style="font-weight: 700"> Kanpur Metro Helpline</strong><br>
+                        <a href="tel:+915122246200" tabindex="11" style="color: #555"><span><strong>0512-2246200</strong></span><br></a>
+                        <strong style="font-size:10px"> 24x7 all days</strong> </div>
+                    <div class="help" title="Lucknow Metro Helpline no. 0522-2288869 can be reached 24x7."><strong style="font-weight: 700"> Lucknow Metro Helpline</strong><br>
+                        <a href="tel:+915222288869" tabindex="11" style="color: #555"><span><strong>0522-2288869</strong></span><br></a>
+                        <strong style="font-size:10px"> 24x7 all days</strong> </div>
+                </div>
+
+            </div>
+
+            <div class="clearfix"></div>
+
+            <div class="row menu_bg">
+
+
+
+                <div class="container">
+
+                    <button class="btn btn-responsive-nav btn-inverse bars" data-toggle="collapse" data-target=".nav-main-collapse">
+  
+                                <i class="fa fa-bars"></i>
+  
+                            </button>
+
+                    <button class="btn btn-responsive-nav btn-inverse close_menu" data-toggle="collapse" data-target=".nav-main-collapse" style="display:none">
+  
+                          <i class="fa fa-close"></i>
+  
+                      </button>
+
+                    <div class="navbar-collapse nav-main-collapse collapse" style="float:left">
+
+                        <div class="container">
+
+
+
+                            <nav class="nav-main mega-menu">
+
+                                <ul class="nav nav-pills nav-main" id="mainMenu">
+
+                                    <li>
+
+                                        <a tabindex="12" href="https://www.lmrcl.com/">Home</a>
+
+                                    </li>
+
+                                    <li class="dropdown" id="about"><a class="dropdown-toggle extra" href="#"><i class="fa fa-angle-down"></i></a>
+
+                                        <a tabindex="13" class="dropdown-toggle disabled" href="https://www.lmrcl.com/about/lucknow-metro-rail-corporation/">About<i class="fa fa-angle-down"></i></a>
+
+                                        <ul class="dropdown-menu" id="about-menu">
+
+                                            <li><a href="https://www.lmrcl.com/about/lucknow-metro-rail-corporation/">About LMRC</a></li>
+
+                                            <li><a href="https://www.lmrcl.com/about/lucknow-metro-rail-corporation-team/">The UPMRC Team</a></li>
+
+                                            <li><a href="https://www.lmrcl.com/about/vision-mission">Vision &amp; Mission </a></li>
+
+                                            <li><a href="https://www.lmrcl.com/about/md-message">MD's Message</a></li>
+
+                                            <li><a href="https://www.lmrcl.com/about/board-of-directors/">Board of Directors</a></li>
+
+                                            <li><a href="https://www.lmrcl.com/about/certifications/">Certifications</a></li>
+
+                                        </ul>
+
+                                    </li>
+
+                                    <li class="dropdown"><a class="dropdown-toggle extra" href="#"><i class="fa fa-angle-down"></i></a>
+
+                                        <a class="dropdown-toggle disabled" href="https://www.lmrcl.com/passengerinfo/latest-updates/" tabindex="14">
+  
+                                          Passenger info
+  
+                                          <i class="fa fa-angle-down"></i>
+  
+                                      </a>
+
+                                        <!--   <ul class="dropdown-menu">
+  
+                                          <li><a   href="https://www.lmrcl.com/passengerinfo/latest-updates/">Latest Updates</a></li>
+  
+                                          <li><a  href="https://www.lmrcl.com/passengerinfo/lucknow-metro-route-map/">	Route Map</a></li>
+  
+                                           <li><a   href="https://www.lmrcl.com/passengerinfo/metro-timings/">	Metro Timings</a></li>
+  
+                                          <li><a  href="https://www.lmrcl.com/passengerinfo/fare-information/">	Fare Information</a></li>
+  
+                                          <li><a   href="https://www.lmrcl.com/passengerinfo/go-smart-card/">	GoSmart Card</a></li> 
+  
+                                          <li><a   href="https://www.lmrcl.com/passengerinfo/lucknow-metro-marvels/"> Metro Marvel</a></li> 
+  
+                                          <li   class="dropdown-submenu">
+  
+                                          <a href="#"  >Your Metro</a>
+  
+                                              <ul class="dropdown-menu">
+  
+                                               <li><a  href="https://www.lmrcl.com/passengerinfo/why-metro/">	Why Pick Metro?</a></li>
+  
+                                                  <li><a  href="https://www.lmrcl.com/passengerinfo/dos-and-donts/">	Do’s and Don’ts</a></li>
+  
+                                                  <li><a   href="https://www.lmrcl.com/passengerinfo/features/">	Special Features</a></li>
+  
+                                                  <li  >
+  
+                                                <a   href="https://www.lmrcl.com/passengerinfo/station-facilities">Station Facilities</a>
+  
+                                             
+  
+                                                   </li>
+  
+                                                  <li><a  href="https://www.lmrcl.com/passengerinfo/for-differently-abled/">	For Differently Abled</a></li>
+  
+                                                  <li><a  href="https://www.lmrcl.com/passengerinfo/safety-and-security">	Safety & Security</a></li>
+  
+                                                  <li><a  href="https://www.lmrcl.com/passengerinfo/responsibility/">	Your Responsibility</a></li>
+  
+                                                  <li><a   href="https://www.lmrcl.com/passengerinfo/offences-and-penalties/">	Offences & Penalties</a></li>
+  
+  
+  
+                                              </ul>
+  
+                                          </li>  
+   
+  
+                                          <li tabindex="35"><a tabindex="-1" href="https://www.lmrcl.com/passengerinfo/tourist-attractions">Tourist Attractions</a></li>
+  
+                                          <li tabindex="36"><a  tabindex="-1" href="https://www.lmrcl.com/passengerinfo/lmrc-mobile-app">LMRC Mobile App</a></li>
+  
+                                          <li  tabindex="37"><a tabindex="-1" href="https://www.lmrcl.com/passengerinfo/faqs/">FAQs</a></li>
+  
+                                          <li  tabindex="37"><a tabindex="-1" tabindex="38" href="https://www.lmrcl.com/passengerinfo/lost-and-found/">Lost and Found</a></li>
+  
+                                          </ul> -->
+                                        <ul class="dropdown-menu">
+                                            <li class="dropdown-submenu">
+                                                <a href="#">  Lucknow Metro</a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a href="https://www.lmrcl.com/passengerinfo/latest-updates/">Latest Updates</a></li>
+
+                                                    <li><a href="https://www.lmrcl.com/passengerinfo/lucknow-metro-route-map/">  Route Map</a></li>
+
+                                                    <li><a href="https://www.lmrcl.com/passengerinfo/metro-timings/">  Metro Timings</a></li>
+
+                                                    <li><a href="https://www.lmrcl.com/passengerinfo/fare-information/"> Fare Information</a></li>
+
+                                                    <li><a href="https://www.lmrcl.com/passengerinfo/go-smart-card/"> GoSmart Card</a></li>
+
+                                                    <li><a href="https://www.lmrcl.com/passengerinfo/lucknow-metro-marvels/"> Metro Marvel</a></li>
+
+                                                    <li class="dropdown-submenu">
+
+                                                        <a href="#">Your Metro</a>
+
+                                                        <ul class="dropdown-menu">
+
+                                                            <li><a href="https://www.lmrcl.com/passengerinfo/why-metro/"> Why Pick Metro?</a></li>
+
+                                                            <li><a href="https://www.lmrcl.com/passengerinfo/dos-and-donts/">  Do’s and Don’ts</a></li>
+
+                                                            <li><a href="https://www.lmrcl.com/passengerinfo/features/">  Special Features</a></li>
+
+                                                            <li>
+
+                                                                <a href="https://www.lmrcl.com/passengerinfo/station-facilities">Station Facilities</a>
+
+
+
+                                                            </li>
+
+                                                            <li><a href="https://www.lmrcl.com/passengerinfo/for-differently-abled/">  For Differently Abled</a></li>
+
+                                                            <li><a href="https://www.lmrcl.com/passengerinfo/safety-and-security"> Safety &amp; Security</a></li>
+
+                                                            <li><a href="https://www.lmrcl.com/passengerinfo/responsibility/"> Your Responsibility</a></li>
+
+                                                            <li><a href="https://www.lmrcl.com/passengerinfo/offences-and-penalties/">  Offences &amp; Penalties</a></li>
+
+
+
+                                                        </ul>
+
+                                                    </li>
+
+
+                                                    <li tabindex="35"><a tabindex="-1" href="https://www.lmrcl.com/passengerinfo/tourist-attractions">Tourist Attractions</a></li>
+
+                                                    <li tabindex="36"><a tabindex="-1" href="https://www.lmrcl.com/passengerinfo/lmrc-mobile-app">LMRC Mobile App</a></li>
+
+                                                    <li tabindex="37"><a tabindex="-1" href="https://www.lmrcl.com/passengerinfo/faqs/">FAQs</a></li>
+
+                                                    <li tabindex="37"><a tabindex="-1" href="https://www.lmrcl.com/passengerinfo/lost-and-found/">Lost and Found</a></li>
+
+                                                </ul>
+                                            </li>
+                                            <li class="dropdown-submenu">
+                                                <a href="#">Kanpur Metro</a>
+                                                <ul class="dropdown-menu">
+
+                                                    <li><a href="https://www.lmrcl.com/kanpur-metro/station-info">Station Info</a></li>
+                                                    <li><a href="https://www.lmrcl.com/kanpur-metro/route-map">Route Map</a></li>
+                                                    <li><a href="https://www.lmrcl.com/kanpur-metro/fare-info">Fare Information</a></li>
+
+                                                    <!--   <li><a   href="https://www.lmrcl.com/passengerinfo/metro-timings/"> </a></li>
+  
+                                  <li><a  href="https://www.lmrcl.com/passengerinfo/fare-information/"></a></li> -->
+                                                    <li><a target="_blank" href="https://transit.sbi/"> GoSmart Card</a></li>
+
+
+
+                                                    <!-- 
+                                    <li tabindex="35"><a tabindex="-1" href="https://www.lmrcl.com/passengerinfo/tourist-attractions"></a></li>
+  
+                                    <li tabindex="36"><a  tabindex="-1" href="https://www.lmrcl.com/passengerinfo/lmrc-mobile-app"></a></li>
+  
+                                    <li  tabindex="37"><a tabindex="-1" href="https://www.lmrcl.com/passengerinfo/faqs/"></a></li>
+  
+                                    <li  tabindex="37"><a tabindex="-1" tabindex="38" href="https://www.lmrcl.com/passengerinfo/lost-and-found/"></a></li> -->
+
+                                                </ul>
+                                            </li>
+
+                                            <li class="dropdown-submenu">
+                                                <a href="#">Agra Metro</a>
+                                                <ul class="dropdown-menu">
+
+                                                    <li><a href="https://www.lmrcl.com/agra-metro/station-info">Station Info</a></li>
+                                                    <li><a href="https://www.lmrcl.com/agra-metro/route-map">Route Map</a></li>
+                                                    <li><a href="https://www.lmrcl.com/agra-metro/fare-info">Fare Information</a></li>
+
+
+
+                                                </ul>
+                                            </li>
+
+                                        </ul>
+
+                                    </li>
+
+
+
+                                    <li class="dropdown"><a class="dropdown-toggle extra" href="#"><i class="fa fa-angle-down"></i></a>
+
+                                        <a tabindex="15" class="dropdown-toggle disabled" href="https://www.lmrcl.com/project/project-overview/">Projects<i class="fa fa-angle-down"></i></a>
+
+                                        <ul class="dropdown-menu proj">
+
+                                            <li><a href="https://www.lmrcl.com/project/project-overview/">Project Overview</a></li>
+                                            <li><a href="https://www.lmrcl.com/passengerinfo/lucknow-metro-route-map/">Present Network</a></li>
+                                            <li><a href="https://www.lmrcl.com/project/project-status/">Project Status</a></li>
+                                            <li><a href="https://www.lmrcl.com/project/dpr-of-lucknow-metro/">DPR of Lucknow Metro</a></li>
+                                            <li><a href="https://www.lmrcl.com/project/dpr-of-agra-metro/">DPR of Agra Metro</a></li>
+                                            <li><a href="https://www.lmrcl.com/project/dpr-of-kanpur-metro/">DPR of Kanpur Metro</a></li>
+                                            <li><a href="https://www.lmrcl.com/project/stakeholder-engagement-plan/">Stakeholder Engagement Plan</a></li>
+                                            <li><a href="https://www.lmrcl.com/project/environment-impact-assessment/">Environment Impact Assessment</a></li>
+                                            <!-- <li><a  href="https://www.lmrcl.com/project/environment_agra_metro_rail/">Environment & Social Management Plan - Agra Project</a> </li> -->
+                                            <li><a href="https://www.lmrcl.com/project/resettlement-policy-framework/">Resettlement Policy Framework</a></li>
+                                            <li><a href="https://www.lmrcl.com/project/rap_priority_corridor/">RAP - Priority Corridor</a> </li>
+                                            <li><a href="https://www.lmrcl.com/project/rap_remaining_section/">RAP - Remaining Section</a> </li>
+                                            <li><a href="https://www.lmrcl.com/project/rpf_kanpur_metro_rail/">RPF - Kanpur Metro Rail Project</a> </li>
+                                            <li><a href="https://www.lmrcl.com/project/rpf_agra_metro_rail/">RPF - Agra Metro Project</a> </li>
+                                            <li><a href="https://www.lmrcl.com/project/hia_agra_metro_rail/">HIA - Agra Metro Project</a> </li>
+                                            <li><a href="https://www.lmrcl.com/project/sia_rap_report_kanpur/">SIA &amp; RAP Report Kanpur</a> </li>
+
+
+
+                                            <li><a href="https://www.lmrcl.com/project/rap_agra_project/">RAP - Agra Project</a> </li>
+                                            <li><a href="https://www.lmrcl.com/project/sep_agra_project/">SEP - Agra Project</a> </li>
+
+
+
+                                            <!-- <li><a href="">Ongoing Projects</a></li>
+  
+                                        <li><a href="">Future Projects</a></li>
+  
+                                        <li><a href="">Funding</a></li>-->
+
+                                        </ul>
+
+                                    </li>
+
+                                    <li class="dropdown"><a class="dropdown-toggle extra" href="#"><i class="fa fa-angle-down"></i></a>
+
+                                        <a tabindex="16" class="dropdown-toggle disabled" href="https://www.lmrcl.com/media/press-release/">Media<i class="fa fa-angle-down"></i></a>
+
+                                        <ul class="dropdown-menu">
+
+                                            <li><a href="https://www.lmrcl.com/media/press-release/">Press Releases</a></li>
+
+                                            <li><a href="https://www.lmrcl.com/media/lmrc-awards/">LMRC Awards</a></li>
+
+                                            <li><a href="https://www.lmrcl.com/media/green-initiative">Green Initiatives</a></li>
+
+                                            <li><a href="https://www.lmrcl.com/media/image-gallery/">Image Gallery</a></li>
+
+                                            <li><a href="https://www.lmrcl.com/media/video-gallery/">Video Gallery</a></li>
+
+                                            <li><a href="https://www.lmrcl.com/media/film-policy/">LMRC Film Shooting Policy</a></li>
+
+                                        </ul>
+
+                                    </li>
+
+                                    <li class="dropdown"><a class="dropdown-toggle extra" href="#"><i class="fa fa-angle-down"></i></a>
+
+                                        <a tabindex="17" class="dropdown-toggle disabled" href="https://www.lmrcl.com/resource/downloads/">Resources<i class="fa fa-angle-down"></i></a>
+
+                                        <ul class="dropdown-menu">
+
+                                            <li><a href="https://www.lmrcl.com/resource/downloads/">Downloads</a></li>
+
+                                            <li><a href="https://www.lmrcl.com/resource/publications/">Publications</a></li>
+
+                                            <li><a href="https://www.lmrcl.com/resource/procurement/">Procurement</a></li>
+                                            <li><a target="_blank" href="https://www.lmrcl.com/media/Auditorium Lease out policy and forms.pdf">UPMRC Auditorium Leasing Policy</a></li>
+                                            <li><a href="https://www.lmrcl.com/resource/vendors">Alternative Vendors/suppliers required</a></li>
+                                            <li><a target="_blank" href="https://www.lmrcl.com/pdf/Transit_Oriented_Developoment_Policy.pdf">National Transit Oriented Development Policy</a></li>
+
+                                        </ul>
+
+                                    </li>
+
+                                    <li class="dropdown"><a class="dropdown-toggle extra" href="#"><i class="fa fa-angle-down"></i></a>
+
+                                        <a tabindex="18" class="dropdown-toggle disabled" href="javascript:void(0);">Careers<i class="fa fa-angle-down"></i></a>
+
+                                        <ul class="dropdown-menu">
+                                            <li><a href="https://cdn.digialm.com/per/g01/pub/1139/ASM/WebPortal/11/index.html" target="_blank">Recruitment 2024 <img alt=" new jobs" src="https://www.lmrcl.com/front-end/img/new-gif.gif"> </a> </li>
+
+
+                                            <li><a href="https://cdn.digialm.com//per/g01/pub/1139/ASM/WebPortal/9/index.html" target="_blank">Recruitment 2022 </a> </li>
+
+                                            <!--  <li><a href="#">Recruitment 2022 <img alt="new jobs" src="https://www.lmrcl.com/front-end/img/new-gif.gif"> </a> </li> 
+                        <li><a href="https://cdn.digialm.com/per/g01/pub/1139/ASM/WebPortal/5/index.html?1139@@5@@1" target="_blank" >Recruitment 2021</a> </li> -->
+
+
+                                            <!--  <li><a href="https://cdn.digialm.com//per/g01/pub/1139/ASM/WebPortal/1/index.html" target="_blank">Recruitment 2019 </a> </li> -->
+
+                                            <!-- <li><a href="https://www.digialm.com//per/g01/pub/1139/ASM/WebPortal/3/index.html" target="_blank">Recruitment 2019 </a> </li> -->
+
+
+
+
+                                            <li><a href="https://www.lmrcl.com/recruitment/deputation/">Deputation</a></li>
+                                            <li><a href="https://www.lmrcl.com/recruitment/new-recruitments/">Notices <img alt=" new jobs" src="https://www.lmrcl.com/front-end/img/new-gif.gif"></a></li>
+
+                                            <li><a href="https://www.lmrcl.com/recruitment/corrigendum-for-recruitments/">Corrigendum(s)</a></li>
+
+                                            <li><a href="https://www.lmrcl.com/recruitment/results/">Results</a></li>
+
+                                        </ul>
+
+                                    </li>
+
+                                    <li class="dropdown"><a class="dropdown-toggle extra" href="#"><i class="fa fa-angle-down"></i></a>
+
+                                        <a tabindex="19" class="dropdown-toggle disabled" href="https://www.lmrcl.com/tenders/project-civil-tenders">Tenders <i class="fa fa-angle-down"></i></a>
+
+                                        <ul class="dropdown-menu">
+                                            <li class="dropdown-submenu">
+                                                <a href="#">Projects</a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a href="https://www.lmrcl.com/tenders/project-civil-tenders">Civil</a></li>
+                                                    <li><a href="https://www.lmrcl.com/tenders/project-electrical-tenders/">Electrical</a></li>
+                                                    <li><a href="https://www.lmrcl.com/tenders/signaling-telecom-tenders">Signaling &amp; Telecom</a></li>
+                                                    <li><a href="https://www.lmrcl.com/tenders/project-rollingstock-tenders/">Rolling Stock</a></li>
+                                                    <li><a href="https://www.lmrcl.com/tenders/other-tenders">Others</a></li>
+
+                                                </ul>
+                                            </li>
+
+
+                                            <li class="dropdown-submenu">
+
+                                                <a href="#">Operations &amp; Maintenance</a>
+
+                                                <ul class="dropdown-menu">
+
+                                                    <li><a href="https://www.lmrcl.com/tenders/operations-civil-tenders">Civil</a></li>
+
+                                                    <li><a href="https://www.lmrcl.com/tenders/operations-electrical-tenders">Electrical</a></li>
+
+                                                    <li><a href="https://www.lmrcl.com/tenders/operations-signaling-telecom-tenders">Signaling &amp; Telecom</a></li>
+
+
+
+                                                    <li><a href="https://www.lmrcl.com/tenders/operations-rollingstock-tenders">Rolling Stock</a></li>
+
+                                                    <li><a href="https://www.lmrcl.com/tenders/operations-other-tenders">Others</a></li>
+
+                                                </ul>
+
+                                            </li>
+
+                                            <li><a href="https://www.lmrcl.com/tenders/property-development">Property Development</a></li>
+                                            <li><a href="https://www.lmrcl.com/tenders/consultancy-services">Consultancy Services</a></li>
+
+
+                                        </ul>
+
+                                    </li>
+
+                                    <li class="dropdown"><a class="dropdown-toggle extra" href="#"><i class="fa fa-angle-down"></i></a>
+
+                                        <a tabindex="20" class="dropdown-toggle disabled" href="https://www.lmrcl.com/lmrc-vigilance/">Vigilance<i class="fa fa-angle-down"></i></a>
+
+                                        <ul class="dropdown-menu">
+
+                                            <li><a href="https://www.lmrcl.com/lmrc-vigilance/">UPMRC Vigilance</a></li>
+
+
+                                            <li><a href="https://www.lmrcl.com/lmrc-vigilance-contact">CVO Profile</a></li>
+                                        </ul>
+
+                                    </li>
+
+                                    <li class="dropdown"><a class="dropdown-toggle extra" href="#"><i class="fa fa-angle-down"></i></a>
+                                        <a tabindex="21" class="dropdown-toggle disabled" href="https://www.lmrcl.com/rti/ ">rti<i class="fa fa-angle-down"></i></a>
+                                        <ul class="dropdown-menu">
+
+                                            <li><a href="https://www.lmrcl.com/rti/information/">Information</a></li>
+
+
+                                            <!--<li><a  href="https://www.lmrcl.com/rti">Contacts</a></li>-->
+                                            <li><a href="https://www.lmrcl.com/rti/contact">Contacts</a></li>
+
+                                        </ul>
+                                    </li>
+
+                                    <li><a tabindex="22" href="https://www.lmrcl.com/contactus/">Contact us</a></li>
+
+
+                                </ul>
+
+                            </nav>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+        </header>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                //$("#upmrcl").modal('show');
+            });
+        </script>
+        <style type="text/css">
+            #upmrcl .modal-dialog {
+                width: 60%
+            }
+            
+            #upmrcl .modal-content {
+                min-height: 250px;
+                padding: 20px 25px;
+            }
+            
+            #upmrcl .modal-content h3 {
+                margin: 10px 0 10px;
+                font-size: 26px;
+                color: #000
+            }
+            
+            #upmrcl .modal-content p {
+                color: #000
+            }
+            
+            @media(max-width: 640px) {
+                #upmrcl .modal-dialog {
+                    width: 95%
+                }
+                #upmrcl .modal-content {
+                    min-height: 400px;
+                    padding: 10px
+                }
+                #upmrcl .modal-content h3 {
+                    margin: 20px 0 10px;
+                    font-size: 22px;
+                }
+                #upmrcl .modal-content p span {
+                    word-wrap: break-word;
+                }
+            }
+        </style>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&amp;family=Poppins:wght@300;400;500;600&amp;display=swap" rel="stylesheet">
+        <!--  <div id="recharge-offer" class="modal fade">
+  
+          <div class="modal-dialog"  style="padding:0">
+  
+              <div class="modal-content">
+  
+               <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="position:absolute; right:10px; top:5px; z-index:10">&times;</button>
+                  <div class="modal-body" style="text-align:center">
+                      <img alt="LMRCL Notice"  src="https://www.lmrcl.com/front-end/img/rechage-popup.jpg"  />
+                  </div>
+              </div>
+          </div>
+      </div>  -->
+        <!--  <div id="upmrcl" class="modal fade">
+  
+          <div class="modal-dialog"  style="padding:0; ">
+  
+              <div class="modal-content" style="min-height:550px;" >
+               
+               <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="position:absolute; right:10px; top:5px; z-index:10">&times;</button>
+  
+                  <div class="modal-body" style="text-align:center; max-height: 500px; margin-top: 15px">
+                                      <div class="col-md-12">
+  
+                        
+  
+  
+  
+                       <h3 style=" text-align:center; padding-bottom:0px; margin:0px; ">
+  
+                          Lucknow Metro resumes services as the safest public transport, We are back...
+                        
+                        </h3> <br>  
+                          
+                        
+                         
+                          
+                          <iframe width="100%" height="400" class="myVideoClass" src="https://www.youtube.com/embed/eX9H0GPoPyE?rel=0&controls=0&hd=1&showinfo=0&enablejsapi=1" frameborder="0"></iframe>
+  
+         
+                      </div>
+                  </div>
+                
+  
+              </div>
+  
+          </div>
+  
+      </div>  -->
+
+
+
+
+
+        <script type="text/javascript">
+            jssor_1_slider_init = function() {
+                var jssor_1_options = {
+                    $AutoPlay: 1,
+                    $AutoPlaySteps: 1,
+                    $SlideDuration: 160,
+                    $SlideWidth: 250,
+                    $SlideSpacing: 1,
+                    $Cols: 1,
+                    $Align: 485,
+                    $ArrowNavigatorOptions: {
+                        $Class: $JssorArrowNavigator$,
+                        $Steps: 1
+                    },
+                    $BulletNavigatorOptions: {
+                        $Class: $JssorBulletNavigator$
+                    }
+                };
+                var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+                /*#region responsive code begin*/
+                var MAX_WIDTH = 980;
+
+                function ScaleSlider() {
+                    var containerElement = jssor_1_slider.$Elmt.parentNode;
+                    var containerWidth = containerElement.clientWidth;
+                    if (containerWidth) {
+                        var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+                        jssor_1_slider.$ScaleWidth(expectedWidth);
+
+                    } else {
+                        window.setTimeout(ScaleSlider, 30);
+                    }
+                }
+                ScaleSlider();
+                $Jssor$.$AddEvent(window, "load", ScaleSlider);
+                $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+                $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+                /*#endregion responsive code end*/
+            };
+            $(document).ready(function() {
+                $("#swap").click(function() {
+                    var v1 = $('#from').val();
+                    var v2 = $('#to').val();
+                    $('#from').val(v2);
+                    $('#to').val(v1);
+                });
+            })
+        </script>
+        <style>
+            .jssorb057 .i {
+                position: absolute;
+                cursor: pointer;
+            }
+            
+            .jssorb057 .i .b {
+                fill: none;
+                stroke: #fff;
+                stroke-width: 2000;
+                stroke-miterlimit: 10;
+                stroke-opacity: 0.4;
+            }
+            
+            .jssorb057 .i:hover .b {
+                stroke-opacity: .7;
+            }
+            
+            .jssorb057 .iav .b {
+                stroke-opacity: 1;
+            }
+            
+            .jssorb057 .i.idn {
+                opacity: .3;
+            }
+            
+            .jssora073 {
+                display: block;
+                position: absolute;
+                cursor: pointer;
+            }
+            
+            .jssora073 .a {
+                fill: #ddd;
+                fill-opacity: .7;
+                stroke: #000;
+                stroke-width: 160;
+                stroke-miterlimit: 10;
+                stroke-opacity: .7;
+            }
+            
+            .jssora073:hover {
+                opacity: .8;
+            }
+            
+            .jssora073.jssora073dn {
+                opacity: .4;
+            }
+            
+            .jssora073.jssora073ds {
+                opacity: .3;
+                pointer-events: none;
+            }
+        </style>
+        <style>
+            .modal-body p {
+                margin: 0;
+                font-weight: 600
+            }
+            
+            #style-4 .links {
+                position: absolute;
+                top: 50px;
+                left: 50px;
+            }
+            
+            #style-4 .links a {
+                color: #333;
+                display: block;
+                line-height: 30px;
+                font-size: 20px;
+                text-decoration: none;
+                font-weight: 600;
+            }
+            
+            #style-4 .links a:hover {
+                color: #00b3a1;
+            }
+            
+            .lmrc-news .newss {
+                max-height: 300px;
+                overflow: hidden;
+            }
+            
+            .lmrc-news .newss {
+                height: 280px;
+            }
+            
+            .lmrc-news .newss .roww {
+                margin: 15px 10px;
+                position: relative;
+                padding: 0 0 5px;
+                padding-right: 0;
+                border-bottom: solid 1px #eee;
+                min-height: 50px;
+            }
+            
+            .lmrc-news .newss .roww a {
+                text-decoration: none
+            }
+            
+            .lmrc-news .newss .roww .img {
+                width: 20%;
+                display: inline-block;
+                vertical-align: top!important
+            }
+            
+            .lmrc-news .newss .roww img {
+                width: 50px;
+                /*height: 35px;*/
+                padding-top: 3px
+            }
+            
+            .lmrc-news .newss .roww .txt {
+                display: inline-block;
+                width: 75%;
+                line-height: 18px;
+                font-size: 14px;
+                margin-left: 2%;
+                color: #333
+            }
+            
+            .lmrc-news .newss .roww .date {
+                font-size: 12px;
+                color: #999;
+                float: right;
+            }
+            
+            @media screen and (max-width:640px) {
+                .lmrc_map {
+                    max-height: 250px;
+                    min-height: 150px!important
+                }
+            }
+        </style>
+        <!-- ticker -->
+        <style type="text/css">
+            .holder {
+                width: 100%;
+                height: 280px;
+                overflow: hidden;
+                padding: 10px;
+                font-family: Helvetica;
+            }
+            
+            .holder .mask {
+                position: relative;
+                left: 0px;
+                top: 10px;
+                width: 300px;
+                height: 240px;
+                overflow: hidden;
+            }
+            
+            .holder ul {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                position: relative;
+            }
+            
+            .holder ul li {
+                padding: 10px 0px;
+            }
+            
+            .holder ul li a {
+                color: darkred;
+                text-decoration: none;
+            }
+            
+            .demof {
+                border: 1px solid #ccc;
+                margin: 25px 0;
+            }
+            
+            .demof ul {
+                padding: 0;
+                list-style: none;
+            }
+            
+            .demof li {
+                padding: 20px;
+                border-bottom: 1px dashed #ccc;
+            }
+            
+            .demof li.odd {
+                background: #fafafa;
+            }
+            
+            .demof li:after {
+                content: '';
+                display: block;
+                clear: both;
+            }
+            
+            .demof img {
+                float: left;
+                width: 50px;
+                margin: 5px 15px 0 0;
+            }
+            
+            .demof a {}
+            
+            .demof a:hover {
+                text-decoration: none;
+            }
+            
+            .demof a:hover p {
+                color: #000
+            }
+            
+            .demof p {
+                margin: 0px 0 0;
+                font-size: 14px;
+                line-height: 18px;
+                margin-left: 63px
+            }
+            
+            .demof p.date {
+                text-align: right;
+                color: #999!important;
+                font-size: 13px
+            }
+            
+            .demo5 {
+                border: 0px solid #FF3333;
+                margin-top: 10px;
+                border-radius: 10px;
+                width: 100%;
+                max-width: 100%
+            }
+            
+            .demo5 ul {
+                padding: 0;
+            }
+            
+            .demo5 ul li {
+                padding: 12px 10px;
+                border-bottom: 1px solid #ddd;
+                list-type: none;
+                margin: 0;
+            }
+            
+            .et-run {
+                background-color: #0cf;
+                color: white;
+                border: 1px solid black;
+            }
+            
+            .home-table tr th {
+                padding: 5px 20px 5px !important;
+                border-top: 0
+            }
+            
+            .home-table tr th h1 {
+                font-size: 22px;
+                color: #333;
+                font-weight: 600;
+                margin: 0
+            }
+            
+            .home-table tr td {
+                font-size: 18px;
+                vertical-align: top!important;
+                padding: 10px 20px!important
+            }
+            
+            .home-table tr td a {
+                font-size: 30px;
+                color: #fff;
+            }
+            /*.home-table > tbody > tr  {
+      background-color: #00b3a1;
+  }
+   .home-table > tbody > tr td{border-top:10px solid #fff; color: #fff; background-color: #00b3a1;}*/
+            
+            .home-table tr td a img {
+                max-width: 75%;
+                transition: all ease .3s;
+            }
+            
+            .home-table tr td a {
+                position: relative;
+                overflow: hidden;
+            }
+            
+            .home-table tr td a img:hover {
+                transform: scale(1.1);
+            }
+            
+            .home-new-sec h1 {
+                font-size: 30px;
+                font-weight: 600;
+                margin: 0
+            }
+            
+            .home-new-sec .headd {
+                background-color: #850d04;
+                font-size: 18px;
+                font-weight: 600;
+                padding: 10px;
+                color: #fff;
+                font-family: 'Montserrat', sans-serif;
+            }
+            
+            .home-new-sec .headd.hh {
+                background-color: #b43027
+            }
+            
+            .home-new-sec .col-md-7 {
+                padding-right: 0
+            }
+            
+            .home-new-sec .col-md-5 {
+                padding-left: 0
+            }
+            
+            .home-new-sec .cont .box {
+                background: #fff;
+                border: solid 1px #999;
+                border-radius: 5px;
+                text-align: center;
+                margin: 10px 0 0;
+                padding: 10px;
+                min-height: 170px;
+            }
+            
+            .home-new-sec .cont .box h4 {
+                font-size: 13px;
+                font-weight: 600;
+                line-height: 18px;
+                margin-top: 5px;
+                font-family: 'Poppins', sans-serif;
+            }
+            
+            .home-new-sec .cont {
+                padding: 5px 10px
+            }
+            
+            .home-new-sec .cont .box img {
+                max-width: 50px;
+                filter: saturate(5) hue-rotate(198deg);
+            }
+            
+            .home-new-sec .cont .box .btn {
+                background: #850d04;
+                color: #fff;
+                padding: 3px 10px;
+                font-size: 13px
+            }
+            
+            .home-new-sec .cont .col-md-4 {
+                padding: 0 10px
+            }
+            
+            .home-new-sec .cont.c2 {
+                padding: 5px 15px
+            }
+            
+            .home-new-sec .cont.c2 .box .btn {
+                background: #b43027;
+                color: #fff;
+                padding: 3px 10px;
+                font-size: 13px
+            }
+            
+            .home-new-sec .cont.c2 .col-md-6 {
+                padding: 0 5px
+            }
+            
+            .home-new-sec .cont.c2 .box {
+                padding: 5px 3px 10px
+            }
+            
+            .home-new-sec .cont.c2 .box h4 {
+                font-size: 12px;
+                font-weight: 600;
+                line-height: 18px;
+                margin-top: 5px
+            }
+        </style>
+
+
+        <div class="modal fade" id="fare" tabindex="-1" role="dialog" aria-labelledby="defaultModalLabel" aria-hidden="true" style="display: none;">
+            <div class="modal-dialog home-dialog" style="max-width: 90%">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+                        <h4 class="modal-title" id="defaultModalLabel" style="color:#00b3a1"> <strong>Your Fare</strong> </h4>
+                    </div>
+                    <div class="modal-body">
+                        <p style="font-size:50px; text-align: center; padding: 15px"> <i class="fa fa-inr" style="font-size: 26px;"></i> <span id="recFare" style="margin-left: -10px"></span>/- </p>
+                        <div style="height: 20px; clear: both">&nbsp;</div>
+                        <h4 class="modal-title" id="defaultModalLabel" style="color:#00b3a1; border-bottom: solid 1px #eee; padding-bottom: 10px"> <strong>Stations in between</strong> </h4>
+                        <div style="height: 20px; clear: both">&nbsp;</div>
+                        <div class="col-md-5" style="padding-top: 20px; text-align: center;"><span style="font-size: 70px; color: #999; padding-bottom: 10px " id="recNoStation"></span>
+                            <br>
+                            <a href="https://www.lmrcl.com/passengerinfo/lucknow-metro-route-map/" style="color:#fff; font-weight:600; background:#00b3a1; padding:5px 10px; margin-top: 10px; display: block;  "> Metro Map <i class="fa fa-angle-right" style="padding-left: 5px"></i> </a>
+                        </div>
+                        <div class="col-md-7"><span id="recBetweenStation"></span></div>
+                        <div style="height: 20px; clear: both">&nbsp;</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div role="main" class="main">
+            <div class="row">
+                <div class="container">
+                    <div class="col-md-9">
+                        <div class="home-new-sec">
+                            <h1 class="text-center">Connect with UPMRC</h1>
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <div class="headd text-center">For Bussiness Opportunities</div>
+                                    <div class="cont">
+                                        <div class="row">
+                                            <div class="col-md-4 col-xs-6">
+                                                <div class="box">
+                                                    <img src="https://www.lmrcl.com/front-end/img/home-icons/Commercial.png">
+                                                    <h4>Get Commercial Spaces</h4>
+                                                    <a target="_blank" href="https://www.lmrcl.com/media/policies/Lease out commercial Space.pdf" class="btn">View More <br>Details <i class="fa fa-arrow-right"></i> </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 col-xs-6">
+                                                <div class="box">
+                                                    <img src="https://www.lmrcl.com/front-end/img/home-icons/Advertise.png">
+                                                    <h4>Advertise <br>in Metro</h4>
+                                                    <a target="_blank" href="https://www.lmrcl.com/media/policies/Advertise in metro.pdf" class="btn">View More <br>Details <i class="fa fa-arrow-right"></i> </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 col-xs-6">
+                                                <div class="box">
+                                                    <img src="https://www.lmrcl.com/front-end/img/home-icons/Film Shooting.png">
+                                                    <h4>Film <br>Shooting</h4>
+                                                    <a target="_blank" href="https://www.lmrcl.com/media/policies/Film Shooting Policy.pdf" class="btn"> View More <br>Details <i class="fa fa-arrow-right"></i> </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 col-xs-6">
+                                                <div class="box">
+                                                    <img src="https://www.lmrcl.com/front-end/img/home-icons/Stalls at Metro.png">
+                                                    <h4>Stalls at Metro Stations</h4>
+                                                    <a target="_blank" href="tel:9696104938" class="btn">Contact<br>9696104938  </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 col-xs-6">
+                                                <div class="box">
+                                                    <img src="https://www.lmrcl.com/front-end/img/home-icons/Tour Operators.png">
+                                                    <h4>Tour<br> Operators</h4>
+                                                    <a target="_blank" href="tel:9696104938" class="btn">Contact<br>9696104938 </a>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-4 col-xs-6">
+                                                <div class="box">
+                                                    <img src="https://www.lmrcl.com/front-end/img/home-icons/Commercial.png">
+                                                    <h4>Invest in CG <br> City</h4>
+                                                    <a target="_blank" href="https://www.lmrcl.com/media/policies/CG City Project Details.pdf" class="btn">View More <br>Details <i class="fa fa-arrow-right"></i> </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="headd text-center hh">For Public </div>
+                                    <div class="cont c2">
+                                        <div class="row">
+                                            <div class="col-md-6 col-xs-6">
+                                                <div class="box">
+                                                    <img style="max-width: 40px" src="https://www.lmrcl.com/front-end/img/home-icons/Celebrate Birthday.png">
+                                                    <h4>Celebrate Birthdays, Anniversary in Metro</h4>
+                                                    <a target="_blank" href="tel:9696104938" class="btn">Contact<br>9696104938  </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-xs-6">
+                                                <div class="box">
+                                                    <img src="https://www.lmrcl.com/front-end/img/home-icons/Book Marriage.png">
+                                                    <h4>Book Marriage Hall, Auditotium, Guest House<br> </h4>
+                                                    <a target="_blank" href="tel:7311122796" class="btn">Contact<br>7311122796 </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-xs-6">
+                                                <div class="box">
+                                                    <img style="max-width: 30px" src="https://www.lmrcl.com/front-end/img/home-icons/Pre-Wedding.png">
+                                                    <h4>Pre-wedding<br> Photoshoot</h4>
+                                                    <a target="_blank" href="tel:9696104938" class="btn">Contact<br>9696104938 </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-md-3 mob_btn" style="background:#fff; min-height:450px">
+
+                        <h3 style="margin-bottom:8px; margin-top:18px">Quick Links..</h3>
+
+                        <a href="https://www.lmrcl.com/passengerinfo/why-metro/" class="btn homn_btn" style="width:100%" tabindex="23">
+
+                            <i class="fa fa-subway icon"></i> Your Metro
+
+
+                            <i class="fa fa-2x fa-angle-right"></i>
+
+                        </a>
+
+                        <a tabindex="24" href="https://www.lmrcl.com/passengerinfo/lucknow-metro-route-map/" class="btn homn_btn" style="width:100%">
+                            <i class="fa fa-map icon"></i> Metro Map <i class="fa fa-2x fa-angle-right"></i>
+                        </a>
+
+                        <a tabindex="25" href="https://www.lmrcl.com/passengerinfo/fare-information/" class="btn homn_btn" style="width:100%">
+                            <i class="fa   fa-ticket icon"></i> Fares &amp; Tickets <i class="fa fa-2x fa-angle-right"></i>
+                        </a>
+
+                        <a tabindex="26" href="https://www.lmrcl.com/passengerinfo/lucknow-metro-marvels" class="btn homn_btn" style="width:100%">
+                            <i class="fa fa-star icon"></i> Register as Metro Marvel<img src="https://www.lmrcl.com/front-end/img/new-gif.gif" alt="new gosmart card">
+                            <i class="fa fa-2x fa-angle-right"></i>
+                        </a>
+
+                        <a tabindex="27" href="https://www.lmrcl.com/contactus/" class="btn homn_btn" style="width:100%">
+
+                            <i class="fa   fa-phone icon"></i> Help &amp; Support
+
+                            <i class="fa fa-2x fa-angle-right"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- //End ome Page...Quick Link//-->
+
+
+
+
+
+            <!---->
+
+
+
+            <div class="news" id="home-intro">
+
+
+
+                <div class="row">
+
+
+
+
+
+
+
+                    <div class="container">
+
+
+
+                        <div class="col-md-2 head">
+
+
+
+                            <a tabindex="28" href="https://www.lmrcl.com/passengerinfo/latest-updates/" style="color: #fff; text-decoration: none;"> <span class="desk"> latest	updates <i class="fa fa-caret-right"></i> </span></a>
+
+
+
+                            <span class="mobs" style="margin-top:3px; text-align:left">	 latest	          updates..  </span>
+
+
+
+                        </div>
+
+
+
+                        <div class="col-md-10 text">
+
+
+
+                            <marquee direction="left" scrollamount="3" onmouseover="this.stop()" onmouseout="this.start()">
+
+
+
+                                <a href="pdf/Highest_ridership_station_data.pdf" target="_blank"> Lucknow Metro highest ridership data  </a> &nbsp;
+
+
+
+
+
+                                <a tabindex="-1" href="https://www.lmrcl.com/passengerinfo/latest-updates/">LUCKNOW METRO EXTENDS SERVICE HOURS FOR PASSENGER CONVENIENCE FROM 15TH JULY 2024. LUCKNOW METRO TRAINS TO NOW OPERATE FROM 6A.M. TO 10:30 P.M. ON ALL</a>&nbsp;&nbsp;&nbsp;
+
+
+
+
+
+
+                                <a tabindex="-1" href="https://www.lmrcl.com/passengerinfo/latest-updates/">Revenue services of Lucknow Metro to be operational from 14:30 hrs to 22:00 hrs on 25.03.2024 on occasion of Holi.</a>&nbsp;&nbsp;&nbsp;
+
+
+
+
+
+
+                                <a tabindex="-1" href="https://www.lmrcl.com/passengerinfo/latest-updates/">UPMRC Auditorium available for booking</a>&nbsp;&nbsp;&nbsp;
+
+
+
+
+
+
+                                <a tabindex="-1" href="https://www.lmrcl.com/passengerinfo/latest-updates/">Lucknow Metro daily ridership crosses 91,000 passengers on 15.10.2022. (Click here for details)</a>&nbsp;&nbsp;&nbsp;
+
+
+
+
+
+
+                                <a tabindex="-1" href="https://www.lmrcl.com/passengerinfo/latest-updates/">For all Property, Shops &amp; Business related queries, please contact 6307927534 or enquiry.pdupmrc@gmail.com</a>&nbsp;&nbsp;&nbsp;
+
+
+
+
+
+
+                                <a tabindex="-1" href="https://www.lmrcl.com/passengerinfo/latest-updates/">Two banquet halls and five guest rooms available for booking.</a>&nbsp;&nbsp;&nbsp;
+
+
+
+
+
+
+
+
+
+
+
+                            </marquee>
+
+
+
+                        </div>
+
+
+
+                    </div>
+
+
+
+
+
+
+
+                </div>
+
+
+
+            </div>
+
+
+
+
+
+            <!-- //////After Slider Managing Director's Message/////// -->
+
+            <div class="container">
+                <div class="row ">
+                    <div class="col-md-8">
+                        <div class="boxes">
+                            <div class="heads" style="background:#e57e33"> </div>
+                            <div class="content">
+                                <div class="col-md-3 col-sm-4 text-center">
+                                    <img src="https://www.lmrcl.com/front-end/img/md1.jpg" alt="md" style="max-width:100%; border:solid 2px #ccc"> <br>
+                                    <p style="font-size:15.5px; margin:0; text-align:center"><strong></strong></p>
+                                    <p style="margin:0; text-align:center"></p>
+                                </div>
+                                <div class="col-md-9 col-sm-8">
+                                    <p> I am extremely happy that Lucknow Metro, a Special Purpose Vehicle (SPV), constituted by the Government of India and Government of Uttar Pradesh has accomplished its target and has started its commercial run for the
+                                        people of Lucknow. This is one of the most ambitious Mass Rapid Transit System (MRTS) projects of the Government which has been executed and operated well within the sanctioned budget and within an extremely compressed
+                                        deadline.
+                                    </p>
+                                    <p style="text-align:right"><a tabindex="29" href="https://www.lmrcl.com/about/md-message" style="color:#FF6600">Read more...</a></p>
+                                </div>
+
+                            </div>
+
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <!-- //////End After Slider Managing Director's Message/////// -->
+
+
+
+
+
+
+                    <div class="col-md-4" tabindex="30">
+
+
+
+                        <a tabindex="-1" href="https://www.lmrcl.com/passengerinfo/lmrc-gosmart-card" style="text-decoration:none">
+
+
+
+                        </a>
+                        <div class="boxes go" style="border:solid 2px #42beaf">
+                            <a tabindex="-1" href="https://www.lmrcl.com/passengerinfo/lmrc-gosmart-card" style="text-decoration:none">
+                            </a>
+                            <a href="https://lmrcl.com/passengerinfo/lmrc-gosmart-card"> <img src="https://www.lmrcl.com/front-end/img/go_smart.png" alt="go smart" class="gosmart"> </a>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+
+            </div>
+
+
+
+
+
+
+
+        </div>
+
+
+
+        <div class="clearfix"></div>
+
+
+
+
+
+
+
+        <div class="container ">
+
+
+
+
+
+
+
+            <div class="row ">
+
+
+
+
+
+
+
+                <div class="col-md-4">
+
+
+
+                    <div class="boxes fare" style="height: 330px">
+
+
+
+                        <a tabindex="31" href="https://www.lmrcl.com/passengerinfo/fare-information/"><img src="https://www.lmrcl.com/front-end/img/plus_green.png" alt="LMRCL" class="box_link"></a>
+
+
+
+                        <div class="heads" style="background:#129404"> <img src="https://www.lmrcl.com/front-end/img/fare_ico.png" alt="LMRCL fare calculator"> fare calculator</div>
+                        <div class="content">
+                            <p style="position: absolute;right:40px; font-size: 12px; color: #ff0000; font-style: italic; display: none;" id="fromError">Please select source station.</p>
+
+
+
+
+
+
+                            <form action="">
+
+
+
+                                <p>From </p>
+
+
+
+                                <div style="width:100%">
+
+
+
+                                    <span style="background:#339900; width:10px; height:10px; position:absolute; top:110px; left:38px"></span>
+
+
+
+
+
+
+
+                                    <select tabindex="32" name="from" id="from" style="width:100%; padding:10px; padding-left:25px; margin-bottom:15px;">
+  
+  
+  
+                                                  <option value="" style="display:none;" selected="selected">Select Source *</option>
+  
+  
+  
+                                                  
+  
+  
+                                                  <option value="6">Alambagh</option>
+  
+  
+  
+                                                  
+  
+  
+                                                  <option value="7">Alambagh Bus Stand</option>
+  
+  
+  
+                                                  
+  
+  
+                                                  <option value="2">Amausi Metro</option>
+  
+  
+  
+                                                  
+  
+  
+                                                  <option value="17">Badshah Nagar</option>
+  
+  
+  
+                                                  
+  
+  
+                                                  <option value="19">Bhootnath Market</option>
+  
+  
+  
+                                                  
+  
+  
+                                                  <option value="1">CCS Airport</option>
+  
+  
+  
+                                                  
+  
+  
+                                                  <option value="10">Charbagh</option>
+  
+  
+  
+                                                  
+  
+  
+                                                  <option value="9">Durga Puri</option>
+  
+  
+  
+                                                  
+  
+  
+                                                  <option value="13">Hazratganj</option>
+  
+  
+  
+                                                  
+  
+  
+                                                  <option value="11">Husainganj</option>
+  
+  
+  
+                                                  
+  
+  
+                                                  <option value="20">Indira Nagar Metro</option>
+  
+  
+  
+                                                  
+  
+  
+                                                  <option value="16">IT College</option>
+  
+  
+  
+                                                  
+  
+  
+                                                  <option value="14">K D Singh Babu Stadium</option>
+  
+  
+  
+                                                  
+  
+  
+                                                  <option value="4">Krishna Nagar Metro</option>
+  
+  
+  
+                                                  
+  
+  
+                                                  <option value="18">Lekhraj Market</option>
+  
+  
+  
+                                                  
+  
+  
+                                                  <option value="8">Mawaiya</option>
+  
+  
+  
+                                                  
+  
+  
+                                                  <option value="21">Munsipuliya</option>
+  
+  
+  
+                                                  
+  
+  
+                                                  <option value="12">Sachivalaya</option>
+  
+  
+  
+                                                  
+  
+  
+                                                  <option value="5">Singar Nagar</option>
+  
+  
+  
+                                                  
+  
+  
+                                                  <option value="3">Transport Nagar</option>
+  
+  
+  
+                                                  
+  
+  
+                                                  <option value="15">Vishvavidyalay Metro</option>
+  
+  
+  
+                                                  
+  
+  
+                                              </select>
+
+
+
+                                </div>
+
+
+
+
+
+
+
+                                <p><img style="z-index: 0" src="https://www.lmrcl.com/front-end/img/switch.png" alt="LMRCL" id="swap"></p>
+
+
+                                <p style="margin-top:15px; position: relative; ">To
+
+
+
+                                    <span style="position: absolute;right:40px;   font-size: 12px; color: #ff0000; font-style: italic; display: none; top:0px; z-index: 0  " id="toError">Please select destination station.</span>
+
+
+
+                                </p>
+
+
+
+                                <div style="width:100%; margin-top: 10px" id="fareDivStation">
+
+
+
+                                    <span style="background:#ff0000; width:10px; height:10px; position:absolute; top:218px; left:38px; padding-top: 10px"></span>
+
+
+
+
+
+
+
+                                    <select tabindex="33" name="to" id="to" style="width:100%; padding:10px; padding-left:25px;   ">
+  
+  
+  
+                                              <option value="" style="display:none;">Select Destination *</option>
+  
+  
+  
+                                              
+  
+  
+                                              <option value="6">Alambagh</option>
+  
+  
+  
+                                              
+  
+  
+                                              <option value="7">Alambagh Bus Stand</option>
+  
+  
+  
+                                              
+  
+  
+                                              <option value="2">Amausi Metro</option>
+  
+  
+  
+                                              
+  
+  
+                                              <option value="17">Badshah Nagar</option>
+  
+  
+  
+                                              
+  
+  
+                                              <option value="19">Bhootnath Market</option>
+  
+  
+  
+                                              
+  
+  
+                                              <option value="1">CCS Airport</option>
+  
+  
+  
+                                              
+  
+  
+                                              <option value="10">Charbagh</option>
+  
+  
+  
+                                              
+  
+  
+                                              <option value="9">Durga Puri</option>
+  
+  
+  
+                                              
+  
+  
+                                              <option value="13">Hazratganj</option>
+  
+  
+  
+                                              
+  
+  
+                                              <option value="11">Husainganj</option>
+  
+  
+  
+                                              
+  
+  
+                                              <option value="20">Indira Nagar Metro</option>
+  
+  
+  
+                                              
+  
+  
+                                              <option value="16">IT College</option>
+  
+  
+  
+                                              
+  
+  
+                                              <option value="14">K D Singh Babu Stadium</option>
+  
+  
+  
+                                              
+  
+  
+                                              <option value="4">Krishna Nagar Metro</option>
+  
+  
+  
+                                              
+  
+  
+                                              <option value="18">Lekhraj Market</option>
+  
+  
+  
+                                              
+  
+  
+                                              <option value="8">Mawaiya</option>
+  
+  
+  
+                                              
+  
+  
+                                              <option value="21">Munsipuliya</option>
+  
+  
+  
+                                              
+  
+  
+                                              <option value="12">Sachivalaya</option>
+  
+  
+  
+                                              
+  
+  
+                                              <option value="5">Singar Nagar</option>
+  
+  
+  
+                                              
+  
+  
+                                              <option value="3">Transport Nagar</option>
+  
+  
+  
+                                              
+  
+  
+                                              <option value="15">Vishvavidyalay Metro</option>
+  
+  
+  
+                                              
+  
+  
+                                          </select>
+
+
+
+                                </div>
+
+
+
+
+
+
+
+                                <button tabindex="34" type="button" onclick="getFare('https://www.lmrcl.com/');" style="background:#129404; margin-top:20px">Get Fare</button>
+
+
+
+
+
+
+
+                            </form>
+
+
+
+
+
+
+
+                        </div>
+
+
+
+
+
+
+
+                    </div>
+
+
+
+
+
+
+
+                </div>
+
+
+
+
+
+
+
+                <div class="col-md-4" style="height: 330px">
+
+
+
+                    <div class="boxes lmrc-map" style="min-height: 150px">
+
+
+
+                        <a tabindex="35" href="https://www.lmrcl.com/passengerinfo/lucknow-metro-route-map/"><img src="https://www.lmrcl.com/front-end/img/plus_blue.png" alt="lucknow-metro-route-map" class="box_link"></a>
+
+
+
+                        <div class="heads" style="background:#1795d4"><img src="https://www.lmrcl.com/front-end/img/location_ico.png" alt="lucknow-metro-route-map" style="width:30px"> metro route map</div>
+
+
+
+                        <div>
+
+
+
+                            <a tabindex="36" href="https://www.lmrcl.com/passengerinfo/lucknow-metro-route-map/">
+
+
+
+                                <img src="https://www.lmrcl.com/front-end/img/lmrc_map.png" alt="lucknow-metro-route-map" style="max-width:100%; height: 285px;">
+
+
+
+                            </a>
+
+
+
+                        </div>
+
+
+
+                        <!--<div class="content map" > 
+  
+  
+  
+                                <ul  >
+  
+  
+  
+                                  <li> <a ><i class="fa fa-inr"></i> 15</a></li> <li> <a >10 kms</a> </li> <li><a >8 mins</a></li>
+  
+  
+  
+                                  <li>  <a >6 stops</a></li> <li> <a > 2 interchanges</a> </li> <li>  <a href="" style="background:#1795d4; color:#fff; padding:5px; "><i class="fa  fa-angle-right" style="font-size:24px; padding:5px 10px; padding-right:12px"   ></i></a> </li>
+  
+  
+  
+                                   </ul>
+  
+  
+  
+                                </div>-->
+
+
+
+
+
+
+
+                    </div>
+
+
+
+                </div>
+
+
+
+                <div class="col-md-4">
+
+                    <div class="boxes lmrc-news" style=" height: 330px">
+
+                        <a tabindex="35" href="https://www.lmrcl.com/media/all-in-the-news/"><img src="https://www.lmrcl.com/front-end/img/plus_teal.png" alt="lucknow-metro-route-map" class="box_link"></a>
+
+
+
+                        <div class="heads" style="background:#00b3a1"><img src="https://www.lmrcl.com/front-end/img/news_ico.png" alt="lucknow-metro-route-map" style="width:30px"> In the News</div>
+
+
+
+
+
+                        <div class="newss">
+
+                            <div class="demo5 demof" style="position: relative; height: 237px; overflow: hidden;">
+                                <ul style="margin: 0px; position: absolute; top: 0px;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    <li style="margin: 0px; display: list-item;">
+                                        <a href="https://www.republicworld.com/india-news/general-news/anandiben-patel-gives-a-message-of-environmental-protection.html" target="_blank"><img src="https://www.lmrcl.com/front-end/img/tourist/zoo-thumb-news.jpg" alt="Expandable Input" onerror="this.src='https://www.lmrcl.com/front-end/img/tourist/zoo-thumb-news.jpg'">
+                                            <p>Uttar Pradesh Governor Anandiben Patel travels in Lucknow metro to Raj Bhavan - Republic World</p>
+                                            <p class="date">14-Dec-2019</p>
+                                        </a>
+                                    </li>
+                                    <li style="margin: 0px; display: list-item;">
+                                        <a href="https://thenewsagency.in/iim-students-come-face-to-face-with-lucknow-metro-rail-success-story/" target="_blank"><img src="https://www.lmrcl.com/front-end/img/tourist/zoo-thumb-news.jpg" alt="Expandable Input" onerror="this.src='https://www.lmrcl.com/front-end/img/tourist/zoo-thumb-news.jpg'">
+                                            <p>IIM Students Come Face To Face With Lucknow Metro Rail Success Story - The News Agency</p>
+                                            <p class="date">06-Oct-2019</p>
+                                        </a>
+                                    </li>
+                                    <li style="margin: 0px; display: list-item;">
+                                        <a href="https://www.ismatimes.com/2019/08/lucknow-metro-wins-indian-express-technology-sabha-award-2019/" target="_blank"><img src="https://www.lmrcl.com/front-end/img/tourist/zoo-thumb-news.jpg" alt="Expandable Input" onerror="this.src='https://www.lmrcl.com/front-end/img/tourist/zoo-thumb-news.jpg'">
+                                            <p>LUCKNOW METRO WINS INDIAN EXPRESS ‘TECHNOLOGY SABHA AWARD’, 2019 | ISMA TIMES</p>
+                                            <p class="date">11-Aug-2019</p>
+                                        </a>
+                                    </li>
+                                    <li style="margin: 0px; display: list-item;">
+                                        <a href="http://news.railanalysis.com/lucknow-metros-phase-1a-to-be-awarded-with-the-international-royal-society-for-the-prevention-of-accidents-rospa-award-2019/" target="_blank"><img src="http://news.railanalysis.com/wp-content/uploads/2019/10/Web-Site-Banner-212.png" alt="Expandable Input" onerror="this.src='https://www.lmrcl.com/front-end/img/tourist/zoo-thumb-news.jpg'">
+                                            <p>Lucknow Metro’s Phase 1A To Be Awarded With The International ‘Royal Society For The Prevention Of Accidents’ (RoSPA) Award, 2019 - Rail Analysis Indi</p>
+                                            <p class="date">20-Jul-2019</p>
+                                        </a>
+                                    </li>
+                                    <li style="margin: 0px; display: list-item;">
+                                        <a href="http://epaper.livehindustan.com/epaper/UP/Lucknow/2019-06-05/54/Page-7.html" target="_blank"><img src="https://www.lmrcl.com/front-end/img/tourist/zoo-thumb-news.jpg" alt="Expandable Input" onerror="this.src='https://www.lmrcl.com/front-end/img/tourist/zoo-thumb-news.jpg'">
+                                            <p>Lucknow metro helps reduce air pollution in the city.</p>
+                                            <p class="date">05-Jun-2019</p>
+                                        </a>
+                                    </li>
+                                    <li style="margin: 0px; display: list-item;">
+                                        <a href="https://www.newsheads.in/india/cities/pm-narendra-modi-flags-off-lucknow-metro-north-south-corridor-article-57048" target="_blank"><img src="https://www.newsheads.in/assets/images/t1.png" alt="Expandable Input" onerror="this.src='https://www.lmrcl.com/front-end/img/tourist/zoo-thumb-news.jpg'">
+                                            <p>PM Narendra Modi flags off Lucknow Metro's North-South corridor</p>
+                                            <p class="date">11-Mar-2019</p>
+                                        </a>
+                                    </li>
+                                    <li style="margin: 0px; display: list-item;">
+                                        <a href="https://timesofindia.indiatimes.com/city/lucknow/lucknow-metro-clocks-65000-footfall-beats-delhi-run/articleshow/68340014.cms" target="_blank"><img src="https://timesofindia.indiatimes.com/https://static.toiimg.com/photo/msid-58127550/toilogo.jpg" alt="Expandable Input" onerror="this.src='https://www.lmrcl.com/front-end/img/tourist/zoo-thumb-news.jpg'">
+                                            <p>Lucknow Metro clocks 65,000 footfall, beats Delhi run | Lucknow News - Times of India</p>
+                                            <p class="date">11-Mar-2019</p>
+                                        </a>
+                                    </li>
+                                    <li style="margin: 0px; display: list-item;">
+                                        <a href="https://timesofindia.indiatimes.com/city/lucknow/time-saving-and-fast-lucknow-metro-does-the-job-for-office-goers/articleshow/68366739.cms" target="_blank"><img src="https://timesofindia.indiatimes.com/https://static.toiimg.com/photo/msid-58127550/toilogo.jpg" alt="Expandable Input" onerror="this.src='https://www.lmrcl.com/front-end/img/tourist/zoo-thumb-news.jpg'">
+                                            <p>Time-saving and fast, Lucknow Metro does the job for office-goers | Lucknow News - Times of India</p>
+                                            <p class="date">12-Mar-2019</p>
+                                        </a>
+                                    </li>
+                                    <li style="margin: 0px; display: list-item;">
+                                        <a href="https://m.economictimes.com/magazines/panache/lucknow-metro-rail-corporation-completes-last-phase-of-project-ahead-of-time-under-kumar-keshavs-leadership/articleshow/68312798.cms" target="_blank"><img src="https://m.economictimes.com///img.etimg.com/thumb/msid-42031747,width-154,height-110/etlogo.jpg" alt="Expandable Input" onerror="this.src='https://www.lmrcl.com/front-end/img/tourist/zoo-thumb-news.jpg'">
+                                            <p>Lucknow Metro Rail Corporation completes last phase of project ahead of time under Kumar Keshav's leadership - The Economic Times</p>
+                                            <p class="date">10-Mar-2019</p>
+                                        </a>
+                                    </li>
+                                    <li style="margin: 0px; display: list-item;">
+                                        <a href="http://www.uniindia.com/cmrs-completes-inspection-of-lmrc-north-south-corridor/north/news/1508640.html" target="_blank"><img src="https://www.uniindia.com//images/facebook.png" alt="Expandable Input" onerror="this.src='https://www.lmrcl.com/front-end/img/tourist/zoo-thumb-news.jpg'">
+                                            <p>CMRS completes inspection of LMRC north-South corridor</p>
+                                            <p class="date">23-Feb-2019</p>
+                                        </a>
+                                    </li>
+                                    <li style="margin: 0px; display: list-item;">
+                                        <a href="https://www.ndtv.com/lucknow-news/lucknow-metro-to-complete-north-south-corridor-by-next-month-1975356" target="_blank"><img src="https://www.lmrcl.com/front-end/img/tourist/zoo-thumb-news.jpg" alt="Expandable Input" onerror="this.src='https://www.lmrcl.com/front-end/img/tourist/zoo-thumb-news.jpg'">
+                                            <p>Lucknow Metro To Complete North-South Corridor By Next Month</p>
+                                            <p class="date">09-Jan-2019</p>
+                                        </a>
+                                    </li>
+                                    <li style="margin: 0px; display: list-item;">
+                                        <a href="https://hindi.news18.com/news/uttar-pradesh/lucknow-lucknow-metro-trial-run-successful-through-munshi-pulia-upas-1646881.html" target="_blank"><img src="https://www.lmrcl.com/front-end/img/tourist/zoo-thumb-news.jpg" alt="Expandable Input" onerror="this.src='https://www.lmrcl.com/front-end/img/tourist/zoo-thumb-news.jpg'">
+                                            <p>लखनऊ मेट्रो ने पकड़ी रफ्तार, ट्रायल रन में मुंशी पुलिया तक पहुंची</p>
+                                            <p class="date">09-Jan-2019</p>
+                                        </a>
+                                    </li>
+                                    <li style="margin: 0px; display: list-item;">
+                                        <a href="https://realty.economictimes.indiatimes.com/news/infrastructure/north-south-corridor-of-lucknow-metro-to-become-operational-by-february/67457289" target="_blank"><img src="https://www.lmrcl.com/front-end/img/tourist/zoo-thumb-news.jpg" alt="Expandable Input" onerror="this.src='https://www.lmrcl.com/front-end/img/tourist/zoo-thumb-news.jpg'">
+                                            <p>North-South corridor of Lucknow metro to become operational by February</p>
+                                            <p class="date">09-Jan-2019</p>
+                                        </a>
+                                    </li>
+                                    <li style="margin: 0px; display: list-item;">
+                                        <a href="http://m.sanjeevnitoday.com/state/metro-train-run-by-charbagh-to-munshi-bridge/20190109/202307" target="_blank"><img src="https://www.lmrcl.com/front-end/img/tourist/zoo-thumb-news.jpg" alt="Expandable Input" onerror="this.src='https://www.lmrcl.com/front-end/img/tourist/zoo-thumb-news.jpg'">
+                                            <p>चारबाग से मुंशी पुलिया के बीच ट्रायल के दौड़ी मेट्रो ट्रेन</p>
+                                            <p class="date">09-Jan-2019</p>
+                                        </a>
+                                    </li>
+                                    <li style="margin: 0px; display: list-item;">
+                                        <a href="https://www.uttarpradesh.org/up-news/lucknow/lucknow-metro-trial-250755/" target="_blank"><img src="https://www.uttarpradesh.org/wp-content/uploads/2018/09/logo-1-2.png" alt="Expandable Input" onerror="this.src='https://www.lmrcl.com/front-end/img/tourist/zoo-thumb-news.jpg'">
+                                            <p>Lucknow: Metro trial from Charbagh to Munshipuliya today.</p>
+                                            <p class="date">09-Jan-2019</p>
+                                        </a>
+                                    </li>
+                                    <li style="margin: 0px; display: list-item;">
+                                        <a href="https://pardaphash.com/lucknow-metro-final-trial-run-successfully-completed/" target="_blank"><img src="https://pardaphash.com/assets/pardaphash-logo/pardaphash-logo-272x90.png" alt="Expandable Input" onerror="this.src='https://www.lmrcl.com/front-end/img/tourist/zoo-thumb-news.jpg'">
+                                            <p>Lucknow Metro final trial run successfully completed</p>
+                                            <p class="date">09-Jan-2019</p>
+                                        </a>
+                                    </li>
+                                    <li style="margin: 0px; display: list-item;">
+                                        <a href="https://www.nyoooz.com/news/lucknow/1298906/lko-metro-to-complete-northsouth-corridor-by-feb/" target="_blank"><img src="https://www.nyoooz.com/uploads/nyoooz-images/bsnl_logo_vector.png" alt="Expandable Input" onerror="this.src='https://www.lmrcl.com/front-end/img/tourist/zoo-thumb-news.jpg'">
+                                            <p>Lko Metro to complete north-south corridor by Feb | LUCKNOW NYOOOZ</p>
+                                            <p class="date">09-Jan-2019</p>
+                                        </a>
+                                    </li>
+                                    <li style="margin: 0px; display: list-item;">
+                                        <a href="https://zeenews.india.com/hindi/india/up-uttarakhand/lucknow-metro-completed-trial-run-on-the-remaining-section-on-north-south-corridor/487280" target="_blank"><img src="https://www.lmrcl.com/front-end/img/tourist/zoo-thumb-news.jpg" alt="Expandable Input" onerror="this.src='https://www.lmrcl.com/front-end/img/tourist/zoo-thumb-news.jpg'">
+                                            <p>Lucknow Metro completed trial run on the remaining section on North-South corridor | लखनऊ मेट्रो का अंतिम ट्रायल पूरा, डेडलाइन से दो माह पहले ही पूरा </p>
+                                            <p class="date">09-Jan-2019</p>
+                                        </a>
+                                    </li>
+                                    <li style="margin: 0px; display: list-item;">
+                                        <a href="https://timesofindia.indiatimes.com/city/lucknow/lucknow-metro-to-complete-north-south-corridor-by-next-month/articleshow/67454414.cms" target="_blank"><img src="https://timesofindia.indiatimes.com/https://static.toiimg.com/photo/msid-58127550/toilogo.jpg" alt="Expandable Input" onerror="this.src='https://www.lmrcl.com/front-end/img/tourist/zoo-thumb-news.jpg'">
+                                            <p>Lucknow Metro to complete North-South corridor by next month | Lucknow News - Times of India</p>
+                                            <p class="date">09-Jan-2019</p>
+                                        </a>
+                                    </li>
+                                    <li style="margin: 0px; display: list-item;">
+                                        <a href="https://economictimes.indiatimes.com/industry/transportation/railways/lucknow-metro-to-complete-north-south-corridor-by-next-month/articleshow/67453337.cms" target="_blank"><img src="https://economictimes.indiatimes.com/https://img.etimg.com/thumb/msid-42031747,width-70,height-40/etlogo.jpg" alt="Expandable Input" onerror="this.src='https://www.lmrcl.com/front-end/img/tourist/zoo-thumb-news.jpg'">
+                                            <p>Lucknow Metro to complete North-South corridor by next month - The Economic Times</p>
+                                            <p class="date">09-Jan-2019</p>
+                                        </a>
+                                    </li>
+                                    <li style="margin: 0px; display: list-item;">
+                                        <a href="https://wap.business-standard.com/article-amp/news-ians/lucknow-metro-completes-final-trial-run-119010900614_1.html" target="_blank"><img src="https://www.lmrcl.com/front-end/img/tourist/zoo-thumb-news.jpg" alt="Expandable Input" onerror="this.src='https://www.lmrcl.com/front-end/img/tourist/zoo-thumb-news.jpg'">
+                                            <p>Lucknow Metro completes final trial run</p>
+                                            <p class="date">09-Jan-2019</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+
+
+
+
+                    </div>
+
+
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+        <div class="clearfix"></div>
+
+
+
+
+
+
+
+        <div class="container">
+
+
+
+            <div class="row">
+
+
+
+                <div class="col-md-12">
+
+
+
+                    <a tabindex="37" href="javascript:void(0);" onclick="recharge();" style="text-decoration:none">
+
+
+
+
+
+
+                        <div class="col-md-4 col-sm-4 quick_btn" style="background:url(https://www.lmrcl.com/front-end/img/instant.png) 100% -5px no-repeat #5b4495;">
+
+
+
+                            <p>Metro Go Smart Card</p>
+
+
+
+                            <h3 style="text-transform:uppercase">Instant recharge</h3>
+
+
+
+                        </div>
+
+
+
+                    </a>
+
+
+
+                    <a tabindex="38" href="https://www.lmrcl.com/passengerinfo/lmrc-mobile-app" style="text-decoration:none">
+
+
+
+                        <div class="col-md-4 col-sm-4 quick_btn" style="background:url(https://www.lmrcl.com/front-end/img/mobile_app.png) 104% 3px no-repeat #e27606; ">
+
+
+
+                            <p>Download Mobile App</p>
+
+
+
+                            <h3 style="text-transform:uppercase">for android &amp; ios</h3>
+
+
+
+                        </div>
+
+
+
+                    </a>
+
+
+
+                    <a tabindex="39" href="https://www.lmrcl.com/contactus/" style="text-decoration:none">
+
+
+
+                        <div class="col-md-4 col-sm-4 quick_btn" style="background:url(https://www.lmrcl.com/front-end/img/complaint.png) 107% 5px no-repeat #10b5ac;">
+
+
+
+                            <p>Register your </p>
+
+
+
+                            <h3 style="text-transform:uppercase">complaint here</h3>
+
+
+
+                        </div>
+
+
+
+                    </a>
+
+
+
+                </div>
+
+
+
+            </div>
+
+
+
+        </div>
+
+
+
+
+
+
+
+        <div class="clearfix"></div>
+
+
+
+        <div class="container">
+
+
+
+            <div class="row ">
+
+
+
+                <div class="col-md-4">
+
+
+
+                    <div class="boxes" style="min-height:323px">
+
+
+
+                        <a tabindex="40" href="https://www.lmrcl.com/project/project-overview/"><img src="https://www.lmrcl.com/front-end/img/more_tw.png" alt="lmrc projects" class="box_link"></a>
+
+
+
+                        <div class="heads" style="background:#426182"><img src="https://www.lmrcl.com/front-end/img/gconstruct1-14.png" alt="lmrc project" style="width:23px"> Projects</div>
+
+
+
+
+
+
+
+                        <div class="content" id="style-4" style="position: relative; overflow-y: hidden; ">
+
+
+
+                            <img class="img" src="https://www.lmrcl.com/front-end/img/gallery/p11.jpg" alt="lmrc photo gallery" style="max-width:100%; opacity: .7">
+
+
+
+
+
+
+
+                            <div class="links">
+
+
+
+                                <a tabindex="41" href="https://www.lmrcl.com/project/project-overview/"><i class="fa fa-angle-right"></i> Project Overview   </a> <br>
+
+
+
+                                <a tabindex="42" href="https://www.lmrcl.com/passengerinfo/lucknow-metro-route-map/"><i class="fa fa-angle-right"></i> Project Network </a><br>
+
+
+
+                                <a tabindex="43" href="https://www.lmrcl.com/project/project-status/"><i class="fa fa-angle-right"></i> Project Status  </a>
+
+
+
+                            </div>
+
+
+
+                            <div style="clear:both"></div>
+
+
+
+                        </div>
+
+
+
+                        <a tabindex="44" href="https://www.lmrcl.com/project/project-overview/" class="btn btn-block btn_new" style="background:#426182; margin:10px; width:95% ">Click to see</a>
+
+
+
+                    </div>
+
+
+
+
+
+
+
+                </div>
+
+
+
+
+
+
+
+                <div class="col-md-4">
+
+
+
+                    <div class="boxes" style="min-height:290px;">
+
+
+
+                        <a tabindex="45" href="https://www.lmrcl.com/passengerinfo/tourist-attractions"><img src="https://www.lmrcl.com/front-end/img/more_g+.png" alt="LMRCL" class="box_link"></a>
+
+
+
+                        <div class="heads" style="background:#de2925"> <i style="padding-right: 7px" class="fa   fa-university icon"></i> Tourists Attractions</div>
+
+
+
+
+
+
+
+                        <div class="content" style=" overflow-x: hidden;">
+
+
+
+                            <div id="jssor_1" style="position: relative; margin: 0px auto; top: 0px; left: 0px; width: 671px; height: 391.864px; overflow: hidden; visibility: visible; max-width: 330px;" jssor-slider="true">
+
+
+
+                                <!-- Loading Screen -->
+
+
+
+
+
+
+
+
+
+
+
+                                <div style="position: absolute; top: 0px; left: 0px; width: 250px; height: 146px; transform-origin: 0px 0px; transform: scale(2.684);">
+                                    <div class="" style="position: relative; margin: 0px auto; top: 0px; left: 0px; width: 250px; height: 146px; overflow: visible; visibility: visible; max-width: 330px; display: block;">
+                                        <div data-u="loading" style="position: absolute; top: 0px; left: 0px; background: url(&quot;img/loading.gif&quot;) 50% 50% no-repeat rgba(0, 0, 0, 0.7); width: 250px; height: 140px; display: none;"></div>
+                                        <div data-u="slides" style="cursor: default; position: absolute; top: 0px; left: 0px; width: 250px; height: 140px; overflow: hidden; z-index: 0;">
+                                            <div style="position: absolute; z-index: 0; pointer-events: none; transform: translate3d(-251px, 0px, 0px);"></div>
+                                        </div>
+                                        <div data-u="slides" style="cursor: default; position: absolute; top: 0px; left: 0px; width: 250px; height: 140px; overflow: hidden; z-index: 0;">
+                                            <div style="top: 0px; left: 0px; width: 250px; height: 140px; position: absolute; background-color: rgb(0, 0, 0); opacity: 0; display: none;"></div>
+
+
+
+                                            <div style="z-index: 1; top: 0px; left: 0px; width: 250px; height: 140px; position: absolute; overflow: hidden; transform: translate3d(234px, 0px, 0px);"><img data-u="image" src="https://www.lmrcl.com/front-end/img/tourist/bara_imambara.jpg" alt="LMRCL" border="0" style="top: 0px; left: 0px; width: 250px; height: 140px; z-index: 1; margin-top: 0px; margin-left: 0px; transform: translate3d(0px, 0px, 0px); position: absolute;">
+
+
+
+                                                <div data-u="loading" style="position: absolute; top: 0px; left: 0px; background: url(&quot;img/loading.gif&quot;) 50% 50% no-repeat rgba(0, 0, 0, 0.7); width: 250px; height: 140px; z-index: 1000; display: none;"></div>
+                                            </div>
+
+
+
+                                            <div style="z-index: 1; top: 0px; left: 0px; width: 250px; height: 140px; position: absolute; overflow: hidden; transform: translate3d(-251px, 0px, 0px);"> <img data-u="image" src="https://www.lmrcl.com/front-end/img/tourist/h1.jpg" alt="LMRCL" border="0" style="top: 0px; left: 0px; width: 250px; height: 140px; z-index: 1; margin-top: 0px; margin-left: 0px; transform: translate3d(0px, 0px, 0px); position: absolute;">
+
+
+
+                                                <div data-u="loading" style="position: absolute; top: 0px; left: 0px; background: url(&quot;img/loading.gif&quot;) 50% 50% no-repeat rgba(0, 0, 0, 0.7); width: 250px; height: 140px; z-index: 1000; display: none;"></div>
+                                            </div>
+
+
+
+                                            <div style="z-index: 1; top: 0px; left: 0px; width: 250px; height: 140px; position: absolute; overflow: hidden; transform: translate3d(-251px, 0px, 0px);"> <img data-u="image" src="https://www.lmrcl.com/front-end/img/tourist/h2.jpg" alt="LMRCL" border="0" style="top: 0px; left: 0px; width: 250px; height: 140px; z-index: 1; margin-top: 0px; margin-left: 0px; transform: translate3d(0px, 0px, 0px); position: absolute;">
+
+
+
+                                                <div data-u="loading" style="position: absolute; top: 0px; left: 0px; background: url(&quot;img/loading.gif&quot;) 50% 50% no-repeat rgba(0, 0, 0, 0.7); width: 250px; height: 140px; z-index: 1000; display: none;"></div>
+                                            </div>
+
+
+
+                                            <div style="z-index: 1; top: 0px; left: 0px; width: 250px; height: 140px; position: absolute; overflow: hidden; transform: translate3d(-251px, 0px, 0px);"> <img data-u="image" src="https://www.lmrcl.com/front-end/img/tourist/h3.jpg" alt="LMRCL" border="0" style="top: 0px; left: 0px; width: 250px; height: 140px; z-index: 1; margin-top: 0px; margin-left: 0px; transform: translate3d(0px, 0px, 0px); position: absolute;">
+
+
+
+                                                <div data-u="loading" style="position: absolute; top: 0px; left: 0px; background: url(&quot;img/loading.gif&quot;) 50% 50% no-repeat rgba(0, 0, 0, 0.7); width: 250px; height: 140px; z-index: 1000; display: none;"></div>
+                                            </div>
+
+
+
+                                            <div style="z-index: 1; top: 0px; left: 0px; width: 250px; height: 140px; position: absolute; overflow: hidden; transform: translate3d(-251px, 0px, 0px);"> <img data-u="image" src="https://www.lmrcl.com/front-end/img/tourist/h4.jpg" alt="LMRCL" border="0" style="top: 0px; left: 0px; width: 250px; height: 140px; z-index: 1; margin-top: 0px; margin-left: 0px; transform: translate3d(0px, 0px, 0px); position: absolute;">
+
+
+
+                                                <div data-u="loading" style="position: absolute; top: 0px; left: 0px; background: url(&quot;img/loading.gif&quot;) 50% 50% no-repeat rgba(0, 0, 0, 0.7); width: 250px; height: 140px; z-index: 1000; display: none;"></div>
+                                            </div>
+
+
+
+                                            <div style="z-index: 1; top: 0px; left: 0px; width: 250px; height: 140px; position: absolute; overflow: hidden; transform: translate3d(-17px, 0px, 0px);"><img data-u="image" src="https://www.lmrcl.com/front-end/img/tourist/h5.jpg" alt="LMRCL" border="0" style="top: 0px; left: 0px; width: 250px; height: 140px; z-index: 1; margin-top: 0px; margin-left: 0px; transform: translate3d(0px, 0px, 0px); position: absolute;">
+
+
+
+                                                <div data-u="loading" style="position: absolute; top: 0px; left: 0px; background: url(&quot;img/loading.gif&quot;) 50% 50% no-repeat rgba(0, 0, 0, 0.7); width: 250px; height: 140px; z-index: 1000; display: none;"></div>
+                                            </div>
+
+
+
+                                            <a data-u="any" href="https://www.jssor.com" style="display: none; z-index: 1;">carousel html</a>
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <script type="text/javascript">
+                                jssor_1_slider_init();
+                            </script>
+
+
+
+                            <a tabindex="46" href="https://www.lmrcl.com/passengerinfo/tourist-attractions" class="btn btn-block btn_new" style="background:#bb1410; " alt="tourist-attractions">view all</a>
+
+
+
+                        </div>
+
+
+
+                    </div>
+
+
+
+                </div>
+
+
+
+
+
+
+
+                <div class="col-md-4">
+
+
+
+                    <div style="min-height:323px">
+
+
+
+
+
+
+
+                        <div class="content" style="padding-top: 0px">
+
+
+
+                            <a tabindex="47" href="https://www.lmrcl.com/media/image-gallery/" class="button-hover" style="margin-bottom: 10px"> <span>Image Gallery </span></a>
+
+
+
+                            <a tabindex="48" href="https://www.lmrcl.com/media/video-gallery/" class="button-hover button-hover1"><span>Video Gallery </span></a>
+
+
+
+                        </div>
+
+
+
+
+
+
+
+                    </div>
+
+
+
+                </div>
+
+
+
+            </div>
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+        <div class="clearfix"></div>
+
+
+
+
+
+
+
+        <div class="container">
+
+
+
+            <style type="text/css">
+                .twitter-tweet {
+                    -webkit-box-shadow: 3px 3px 15px 0px rgba(0, 0, 0, 0.2);
+                    -moz-box-shadow: 3px 3px 15px 0px rgba(0, 0, 0, 0.2);
+                    box-shadow: 3px 3px 15px 0px rgba(0, 0, 0, 0.2);
+                }
+            </style>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-3">
+                    <div class="newsletter">
+                        <h4>About LMRC</h4>
+
+                        <ul class="list icons list-unstyled" style="margin-left:10px">
+
+                            <li><i class="fa fa-caret-right"></i> <a href="https://www.lmrcl.com/about/lucknow-metro-rail-corporation/">About </a></li>
+
+                            <li><i class="fa fa-caret-right"></i> <a href="https://www.lmrcl.com/media/press-release/">Press Release</a></li>
+
+                            <li><i class="fa fa-caret-right"></i> <a href="https://www.lmrcl.com/passengerinfo/lmrc-mobile-app">Mobile App</a></li>
+
+                            <li><i class="fa fa-caret-right"></i> <a href="https://www.lmrcl.com/passengerinfo/tourist-attractions">Tourist Attractions</a></li>
+
+                            <li><i class="fa fa-caret-right"></i> <a href="https://www.lmrcl.com/about/lucknow-metro-rail-corporation-team/">The UPMRC Team</a></li>
+
+                            <li><i class="fa fa-caret-right"></i> <a href="https://www.lmrcl.com/about/certifications/">Certifications</a></li>
+
+                            <li><i class="fa fa-caret-right"></i> <a href="https://www.lmrcl.com/contactus/">Contact us</a></li>
+
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="newsletter">
+                        <h4>Helpful Information</h4>
+
+
+
+                        <ul class="list icons list-unstyled" style="margin-left:10px">
+
+
+
+                            <li><i class="fa fa-caret-right"></i> <a href="https://www.lmrcl.com/passengerinfo/fare-information/">Fare Details </a></li>
+
+                            <li><i class="fa fa-caret-right"></i> <a href="https://www.lmrcl.com/passengerinfo/lucknow-metro-route-map/">Metro Route Map</a></li>
+
+                            <li><i class="fa fa-caret-right"></i> <a href="https://www.lmrcl.com/passengerinfo/lost-and-found/">Lost and Found</a></li>
+
+                            <li><i class="fa fa-caret-right"></i> <a href="https://www.lmrcl.com/recruitment/new-recruitments/">Recruitment</a></li>
+
+                            <li><i class="fa fa-caret-right"></i> <a href="https://www.lmrcl.com/passengerinfo/go-smart-registration">Register GoSmart Card</a></li>
+
+                            <li><i class="fa fa-caret-right"></i> <a href="https://www.lmrcl.com/passengerinfo/faqs">FAQs</a></li>
+
+                            <li><i class="fa fa-caret-right"></i> <a href="https://www.lmrcl.com/rti/ ">RTI</a></li>
+
+
+                        </ul>
+
+
+                    </div>
+
+
+
+                </div>
+
+
+
+                <div class="col-md-3">
+
+
+
+                    <h4>Policy</h4>
+
+
+
+                    <ul class="list icons list-unstyled" style="margin-left:10px">
+
+
+
+                        <li><i class="fa fa-caret-right"></i> <a href="https://www.lmrcl.com/lmrc-green-policy">LMRC Green Policy </a></li>
+
+                        <li><i class="fa fa-caret-right"></i> <a href="https://www.lmrcl.com/media/film-policy/">Film Shooting Policy </a></li>
+
+                        <li><i class="fa fa-caret-right"></i> <a href="https://www.lmrcl.com/terms-of-use">Terms of Use</a></li>
+
+                        <li><i class="fa fa-caret-right"></i> <a href="https://www.lmrcl.com/privacy-policy">Privacy Policy</a></li>
+
+
+
+                        <li><i class="fa fa-caret-right"></i> <a href="https://www.lmrcl.com/hyperlink-policy">Hyperlink Policy</a></li>
+
+
+
+                        <li><i class="fa fa-caret-right"></i> <a href="https://www.lmrcl.com/disclaimer">Disclaimer</a></li>
+                        <li><i class="fa fa-caret-right"></i> <a href="https://www.lmrcl.com/sitemap">Sitemap</a></li>
+
+
+
+                    </ul>
+
+
+
+                </div>
+
+
+
+                <div class="col-md-3">
+
+
+
+                    <h4>Other Govt. Sites</h4>
+
+
+
+                    <ul class="list icons list-unstyled" style="margin-left:10px">
+
+
+
+                        <li><i class="fa fa-caret-right"></i> <a href="http://india.gov.in/" target="_blank">Govt. of India </a></li>
+
+
+
+                        <li><i class="fa fa-caret-right"></i> <a href="http://www.indianrail.gov.in/" target="_blank">Indian Railways</a></li>
+
+
+
+                        <li><i class="fa fa-caret-right"></i> <a href="http://up.gov.in/" target="_blank">Govt. of UP</a></li>
+
+
+
+                        <li><i class="fa fa-caret-right"></i> <a href="http://www.makeinindia.com/" target="_blank">Make in India</a></li>
+
+
+
+                        <li><i class="fa fa-caret-right"></i> <a href="http://www.digitalindia.gov.in/" target="_blank">Digital India</a></li>
+
+
+
+                        <li><i class="fa fa-caret-right"></i> <a href="http://www.incredibleindia.org/" target="_blank">Incredible India</a></li>
+
+
+
+                        <li><i class="fa fa-caret-right"></i> <a href="http://www.eib.org/" target="_blank">European Investment Bank</a></li>
+
+
+
+                    </ul>
+
+
+
+                </div>
+
+
+
+
+
+
+
+            </div>
+
+
+
+        </div>
+
+
+
+        <div class="footer-copyright">
+
+
+
+            <div class="container">
+
+
+
+                <div class="row">
+
+
+
+
+
+
+
+                    <div class="col-md-8 col-sm-12 col-xs-12">
+
+
+
+                        <p style="padding-top:20px">© Copyright 2017. All Rights Reserved by Lucknow Metro Rail Corporation. Designed and Developed by <a href="http://www.18pixels.com" rel="nofollow" target="_blank" style="font-weight:600"> Eighteen Pixels</a>.
+
+
+
+                        </p>
+
+
+
+
+
+
+
+                    </div>
+
+
+
+                    <div class="col-md-4 col-sm-6 col-xs-12 pdng text-right  ">
+
+
+                        <div class="col-md-4" style="color:#fff; font-weight:600"> Hits: </div>
+                        <div class="col-md-8">
+                            <div class="hit-counter" style="padding:0px; float:left">
+
+
+                                <img src="//hitwebcounter.com/counter/counter.php?page=7046841&amp;style=0011&amp;nbdigits=9&amp;type=ip&amp;initCount=420002" title="website counter" alt="website counter" border="0">
+
+
+
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+
+
+
+
+
+
+
+                    </div>
+
+
+
+
+
+
+
+                </div>
+
+
+
+            </div>
+
+
+
+        </div>
+
+
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Vendor -->
+
+
+
+    <script src="https://www.lmrcl.com/front-end/photogallery/js/lightbox-plus-jquery.min.js"></script>
+
+
+
+    <script src="https://www.lmrcl.com/front-end/vendor/jquery/jquery.js"></script>
+
+    <!--  <script type="text/javascript">
+                  jQuery.fn.liScroll = function(settings) {
+                  settings = jQuery.extend({
+                      travelocity: 0.03
+                      }, settings);       
+                      return this.each(function(){
+                              var $strip = jQuery(this);
+                              $strip.addClass("newsticker")
+                              var stripHeight = 1;
+                              $strip.find("li").each(function(i){
+                                  stripHeight += jQuery(this, i).outerHeight(true); // thanks to Michael Haszprunar and Fabien Volpi
+                              });
+                              var $mask = $strip.wrap("<div class='mask'></div>");
+                              var $tickercontainer = $strip.parent().wrap("<div class='tickercontainer'></div>");                             
+                              var containerHeight = $strip.parent().parent().height();    //a.k.a. 'mask' width   
+                              $strip.height(stripHeight);         
+                              var totalTravel = stripHeight;
+                              var defTiming = totalTravel/settings.travelocity;   // thanks to Scott Waye     
+                              function scrollnews(spazio, tempo){
+                              $strip.animate({top: '-='+ spazio}, tempo, "linear", function(){$strip.css("top", containerHeight); scrollnews(totalTravel, defTiming);});
+                              }
+                              scrollnews(totalTravel, defTiming);             
+                              $strip.hover(function(){
+                              jQuery(this).stop();
+                              },
+                              function(){
+                              var offset = jQuery(this).offset();
+                              var residualSpace = offset.top + stripHeight;
+                              var residualTime = residualSpace/settings.travelocity;
+                              scrollnews(residualSpace, residualTime);
+                              });         
+                      }); 
+              };
+  
+              $(function(){
+                  $("ul#ticker01").liScroll();
+              });
+              </script> -->
+
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <script>
+        $(function() {
+
+            $("#dateOfBirth").datepicker({
+                maxDate: new Date(),
+                changeMonth: true,
+                changeYear: true,
+                yearRange: '1910:2013'
+            });
+
+            //$( "#marriageAniversayr" ).datepicker({  maxDate: new Date(), changeMonth: true, changeYear: true, yearRange: '1910:2024' });
+
+            $("#marriageAniversayr").datepicker({
+                changeMonth: false,
+                changeYear: false,
+                yearRange: '2024:2024',
+                format: 'dd/mm/yyyy',
+                onSelect: function(dateText, inst) {
+                    var val = dateText.split('/');
+                    var dateCom = val[1] + '/' + val[0];
+                    document.getElementById('marriageAniversayr').value = dateCom;
+                }
+            });
+
+        });
+
+
+        function mchange() {
+            if (document.getElementById('m_status').value == 'Married') {
+                document.getElementById('m_status_txt').style.display = "block";
+            } else {
+                document.getElementById('m_status_txt').style.display = "none";
+            }
+            // The function returns the product of p1 and p2
+        }
+    </script>
+
+    <script src="https://www.lmrcl.com/front-end/js/datapull.js?d=" 1723221123 ""=""></script>
+
+    <script src="https://www.lmrcl.com/front-end/vendor/jquery.appear/jquery.appear.js"></script>
+
+
+
+    <script src="https://www.lmrcl.com/front-end/vendor/jquery.easing/jquery.easing.js"></script>
+
+
+
+    <script src="https://www.lmrcl.com/front-end/vendor/jquery-cookie/jquery-cookie.js"></script>
+
+
+
+    <script src="https://www.lmrcl.com/front-end/vendor/bootstrap/bootstrap.js"></script>
+
+
+
+    <script src="https://www.lmrcl.com/front-end/vendor/common/common.js"></script>
+
+
+
+    <script src="https://www.lmrcl.com/front-end/vendor/jquery.validation/jquery.validation.js"></script>
+
+
+
+    <script src="https://www.lmrcl.com/front-end/vendor/jquery.stellar/jquery.stellar.js"></script>
+
+
+
+    <script src="https://www.lmrcl.com/front-end/vendor/jquery.easy-pie-chart/jquery.easy-pie-chart.js"></script>
+
+
+
+    <script src="https://www.lmrcl.com/front-end/vendor/jquery.gmap/jquery.gmap.js"></script>
+
+
+
+    <script src="https://www.lmrcl.com/front-end/vendor/isotope/jquery.isotope.js"></script>
+
+
+
+    <script src="https://www.lmrcl.com/front-end/vendor/owlcarousel/owl.carousel.js"></script>
+
+
+
+    <script src="https://www.lmrcl.com/front-end/vendor/jflickrfeed/jflickrfeed.js"></script>
+
+
+
+    <script src="https://www.lmrcl.com/front-end/vendor/magnific-popup/jquery.magnific-popup.js"></script>
+
+
+
+    <script src="https://www.lmrcl.com/front-end/vendor/vide/vide.js"></script>
+
+
+    <!-- Theme Base, Components and Settings -->
+
+
+
+    <script src="https://www.lmrcl.com/front-end/js/theme.js"></script>
+
+    <!-- Specific Page Vendor and Views -->
+
+
+
+    <script src="https://www.lmrcl.com/front-end/vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+
+
+
+    <script src="https://www.lmrcl.com/front-end/vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+
+
+
+    <script src="https://www.lmrcl.com/front-end/vendor/circle-flip-slideshow/js/jquery.flipshow.js"></script>
+
+
+
+    <script src="https://www.lmrcl.com/front-end/js/views/view.home.js"></script>
+
+
+    <!-- Theme Custom -->
+
+
+
+    <script src="https://www.lmrcl.com/front-end/js/custom.js"></script>
+
+
+    <!-- Theme Initialization Files -->
+
+
+
+    <script src="https://www.lmrcl.com/front-end/js/theme.init.js"></script><a class="scroll-to-top hidden-mobile visible" href="#"><i class="fa fa-chevron-up"></i></a>
+
+
+
+    <!-- news ticker -->
+    <script src="https://www.lmrcl.com/front-end/news-ticker/jquery.easy-ticker.js"></script>
+
+    <script type="text/javascript">
+        $('.demo5').easyTicker({
+            direction: 'up',
+            visible: 3,
+            interval: 2500,
+            controls: {
+                up: '.btnUp',
+                down: '.btnDown',
+                toggle: '.btnToggle'
+            }
+        });
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="lightboxOverlay" class="lightboxOverlay" style="display: none;"></div>
+    <div id="lightbox" class="lightbox" style="display: none;">
+        <div class="lb-outerContainer">
+            <div class="lb-container"><img class="lb-image" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==">
+                <div class="lb-nav">
+                    <a class="lb-prev" href=""></a>
+                    <a class="lb-next" href=""></a>
+                </div>
+                <div class="lb-loader">
+                    <a class="lb-cancel"></a>
+                </div>
+            </div>
+        </div>
+        <div class="lb-dataContainer">
+            <div class="lb-data">
+                <div class="lb-details"><span class="lb-caption"></span><span class="lb-number"></span></div>
+                <div class="lb-closeContainer">
+                    <a class="lb-close"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="chrome-extension://jeafpcbmaphhkcbdaknfaololcljmkfc/js/injectScript_LearnTube - Learn 100+ Skills with Free Certi_1.js"></script>
+</body>

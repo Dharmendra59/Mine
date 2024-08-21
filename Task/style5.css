@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%
+}
+
+.form {
+    min-height: 80vh;
+    width: 60vw;
+    background-color: rgb(88, 241, 213);
+    padding: 5vh 8vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form h2 {
+    height: 10vh;
+    width: 100%;
+    border: 5px double rgb(181, 34, 18);
+    display: flex;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+    color: rgb(181, 34, 18);
+    margin-bottom: 5vh;
+}
+
+.form .input {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    height: 5vh;
+    margin-top: 1vh;
+}
+
+.form h5 {
+    font-size: 1.5rem;
+    line-height: 5vh;
+    font-weight: 500;
+    color: rgb(181, 34, 18);
+}
+
+.form input {
+    height: 5vh;
+    border-radius: 10px;
+    width: 350px;
+    margin-right: 10vw;
+}
+
+.form select {
+    height: 5vh;
+    border-radius: 10px;
+    width: 120px;
+    margin-right: 25vw;
+    font-size: 1.2rem;
+}
+
+.form .gender {
+    height: 5vh;
+    display: flex;
+    width: 350px;
+    margin-right: 10vw;
+}
+
+.form .genderelem {
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    width: 120px;
+}
+
+.form .genderelem input {
+    margin-right: 0;
+    height: 2vh;
+}
+
+.form .genderelem h5 {
+    margin-bottom: 0;
+}

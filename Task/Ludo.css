@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%
+}
+.ludo{
+    height: 100vh;
+    width: 100vh;
+    background-color: antiquewhite;
+}
+.upper{
+    height: 35%;
+    width: 100%;
+    display: flex;
+}
+.upperright{
+    height: 100%;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.uppermiddle{
+    height:100% ;
+    width: 30%;
+    display: flex;
+}
+.boxinner{
+    height: 70%;
+    width: 70%;
+    border-radius: 10px;
+    background-color: aliceblue;
+    padding: 3vh;
+    display: flex;
+    gap: 7vh;
+    flex-wrap: wrap;
+}
+.ball{
+    height: 5vh;
+    width: 5vh;
+    border-radius: 50%;
+}
+#redball{
+    background-color: red;
+}
+#greenball{
+    background-color: green;
+}
+#blueball{
+    background-color: blue;
+}
+#yellowball{
+    background-color: yellow;
+}
+.col{
+    height: 100%;
+    width: 33.3%;
+    background-color: white;
+}
+.block{
+    height: 16.67%;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block,.middleblock i{
+    font-size: 2rem;
+}
+.middle{
+    height: 30%;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+}
+.middleright{
+    height: 100%;
+    width: 35%;
+    background-color: beige;
+}
+.center{
+    height: 100%;
+    width: 30%;
+    background-color: rgb(214, 187, 239);
+    overflow: hidden;
+}
+.middlerow{
+    height: 33.3%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+.middleblock{
+    height: 100%;
+    width: 16.67%;
+    border: 1px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bluemiddlecol{
+    background-color: blue;
+}
+#greenmiddlecol{
+    background-color: green;
+}
+#redmiddlecol{
+    background-color: red;
+}
+#yellowmiddlecol{
+    background-color: yellow;
+}
+.triangle{
+    height:22.2vh ;
+    width: 22.2vh;
+    position: relative;
+    rotate: 45deg;
+}
+#redtriangle{
+    background-color: red;
+    left: -38%;
+    top: 12%;
+}
+#greentriangle{
+    background-color: green;
+    top: -112%;
+    left: 12%;
+}
+#bluetriangle{
+    background-color: blue;
+        top: -81%;
+        left: 12%;
+}
+#yellowtriangle{
+    background-color: yellow;
+    left: 65%;
+    top: -207.5%;
+}
+.victory{
+    height: 15vh;
+    width: 15vh;
+    border-radius: 50%;
+    position: absolute;
+    background-color: antiquewhite;
+}
